@@ -1,0 +1,57 @@
+[
+  ["receipts.merchant", {"id": "hotel", "city": "north", "sector": "hotel"}],
+  ["receipts.merchant", {"id": "diner", "city": "south", "sector": "food"}],
+  ["receipts.merchant", {"id": "cafe", "city": "south", "sector": "food"}],
+  ["receipts.merchant", {"id": "shop", "city": "south", "sector": "retail"}],
+
+  ["receipts.post", {"id": "c_h_pre1", "merchant": "hotel", "cents": 30000, "happened_at": "2026-10-09"}],
+  ["receipts.post", {"id": "c_h_pre2", "merchant": "hotel", "cents": 32000, "happened_at": "2026-10-12"}],
+  ["receipts.post", {"id": "c_h_post1", "merchant": "hotel", "cents": 31000, "happened_at": "2026-10-16"}],
+  ["receipts.post", {"id": "c_h_post2", "merchant": "hotel", "cents": 33000, "happened_at": "2026-10-20"}],
+  ["receipts.post", {"id": "c_d_pre1", "merchant": "diner", "cents": 9000, "happened_at": "2026-10-10"}],
+  ["receipts.post", {"id": "c_d_pre2", "merchant": "diner", "cents": 11000, "happened_at": "2026-10-13"}],
+  ["receipts.post", {"id": "c_d_post1", "merchant": "diner", "cents": 10000, "happened_at": "2026-10-17"}],
+  ["receipts.post", {"id": "c_d_post2", "merchant": "diner", "cents": 12000, "happened_at": "2026-10-19"}],
+  ["receipts.post", {"id": "c_c_pre1", "merchant": "cafe", "cents": 8000, "happened_at": "2026-10-11"}],
+  ["receipts.post", {"id": "c_c_post1", "merchant": "cafe", "cents": 9000, "happened_at": "2026-10-20"}],
+  ["receipts.post", {"id": "c_s_pre1", "merchant": "shop", "cents": 5000, "happened_at": "2026-10-11"}],
+  ["receipts.post", {"id": "c_s_post1", "merchant": "shop", "cents": 6000, "happened_at": "2026-10-18"}],
+
+  ["receipts.post", {"id": "p_h_pre", "merchant": "hotel", "cents": 30000, "happened_at": "2026-10-09", "source": "ticket"}],
+  ["receipts.post", {"id": "p_h_post", "merchant": "hotel", "cents": 40000, "happened_at": "2026-10-16", "party_size": 2, "source": "ticket"}],
+  ["receipts.post", {"id": "p_d_pre", "merchant": "diner", "cents": 10000, "happened_at": "2026-10-10", "source": "ticket"}],
+  ["receipts.post", {"id": "p_d_post", "merchant": "diner", "cents": 15000, "happened_at": "2026-10-16", "party_size": 2, "source": "ticket"}],
+  ["receipts.post", {"id": "p_c_pre", "merchant": "cafe", "cents": 10000, "happened_at": "2026-10-10", "source": "ticket"}],
+  ["receipts.post", {"id": "p_c_post", "merchant": "cafe", "cents": 7000, "happened_at": "2026-10-19", "source": "ticket"}],
+  ["receipts.post", {"id": "p_h_pre2", "merchant": "hotel", "cents": 34000, "happened_at": "2026-10-11", "source": "ticket"}],
+  ["receipts.post", {"id": "p_h_post2", "merchant": "hotel", "cents": 44000, "happened_at": "2026-10-18", "party_size": 3, "source": "ticket"}],
+  ["receipts.post", {"id": "p_d_pre2", "merchant": "diner", "cents": 12000, "happened_at": "2026-10-12", "source": "ticket"}],
+  ["receipts.post", {"id": "p_d_post2", "merchant": "diner", "cents": 16000, "happened_at": "2026-10-18", "party_size": 3, "source": "ticket"}],
+  ["receipts.post", {"id": "p_s_post", "merchant": "shop", "cents": 20000, "happened_at": "2026-10-19", "source": "ticket"}],
+  ["receipts.post", {"id": "p_h_post3", "merchant": "hotel", "cents": 38000, "happened_at": "2026-10-20", "source": "ticket"}],
+  ["receipts.post", {"id": "x_d_post", "merchant": "diner", "cents": 11000, "happened_at": "2026-10-20", "source": "ticket"}],
+
+  ["journeys.link", {"id": "j1", "tickets": ["t1"], "receipts": ["p_h_pre", "p_h_post", "p_d_pre", "p_d_post", "p_c_pre", "p_c_post"], "consent": "allowed", "household": "hh1"}],
+  ["journeys.link", {"id": "j2", "tickets": ["t2", "t3"], "receipts": ["p_h_pre2", "p_h_post2", "p_d_pre2", "p_d_post2"], "consent": "allowed", "household": "hh2"}],
+  ["journeys.link", {"id": "j3", "tickets": ["t4"], "receipts": ["p_s_post"], "consent": "allowed", "household": "hh3"}],
+  ["journeys.link", {"id": "j4", "tickets": ["t5"], "receipts": ["p_h_post3"], "consent": "allowed", "household": "hh4"}],
+  ["journeys.link", {"id": "j9", "tickets": ["t9"], "receipts": ["x_d_post"], "consent": "denied", "household": "hh9"}],
+
+  ["analysis.activity", {"id": "act1", "start": "2026-10-15", "end": "2026-10-21", "holidays": ["2026-10-17", "2026-10-18"], "note": "续签谈判示例窗口"}],
+
+  ["analysis.study", {"id": "s1", "activity": "act1"}],
+  ["analysis.recommend", {"id": "rec1", "study": "s1", "scheme": "by_effect"}],
+
+  ["journeys.revoke", {"id": "j4", "happened_at": "2026-10-22"}],
+
+  ["analysis.study", {"id": "s2", "activity": "act1"}],
+  ["analysis.recommend", {"id": "rec2", "study": "s2", "scheme": "by_effect"}],
+  ["analysis.confirm", {"id": "rec2", "reviewer": "finance"}],
+
+  ["receipts.refund", {"id": "rf1", "receipt": "p_h_post", "cents": 5000}],
+  ["journeys.revoke", {"id": "j2", "happened_at": "2026-10-25"}],
+
+  ["analysis.reconcile", {"id": "rec2"}],
+  ["analysis.explain", {"id": "rec2"}],
+  ["analysis.schemes", {"study": "s2"}]
+]

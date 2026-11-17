@@ -65,6 +65,13 @@ class Store:
                 for row in self.connection.execute(
                     'SELECT * FROM changes WHERE kind=? AND key=? ORDER BY sequence', (kind,str(key)))]
 
+    def sequence(self):
+        return self.connection.execute('SELECT COALESCE(MAX(sequence),0) FROM changes').fetchone()[0]
+
+    def changes_after(self, sequence):
+        return [dict(row) for row in self.connection.execute(
+            'SELECT kind,key,revision FROM changes WHERE sequence>? ORDER BY sequence', (sequence,))]
+
     def snapshot(self):
         return {kind: self.all(kind) for kind, in self.connection.execute(
             'SELECT DISTINCT kind FROM entities ORDER BY kind').fetchall()}

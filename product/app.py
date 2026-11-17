@@ -6,12 +6,14 @@ from .store import Store
 from .journeys import Journeys
 from .receipts import Receipts
 from .alliance import Alliance
+from .analysis import Analysis
 
 
 class Application:
     def __init__(self, path=':memory:'):
         self.store=Store(path)
-        self.services={'journeys':Journeys(self.store),'receipts':Receipts(self.store),'alliance':Alliance(self.store)}
+        self.services={'journeys':Journeys(self.store),'receipts':Receipts(self.store),
+            'alliance':Alliance(self.store),'analysis':Analysis(self.store)}
 
     def execute(self, command, arguments):
         service, separator, operation=command.partition('.')
