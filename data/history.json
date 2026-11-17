@@ -1,0 +1,11480 @@
+[
+  [
+    "receipts.merchant",
+    {
+      "id": "m0",
+      "city": "city0",
+      "sector": "hotel"
+    }
+  ],
+  [
+    "receipts.merchant",
+    {
+      "id": "m1",
+      "city": "city1",
+      "sector": "food"
+    }
+  ],
+  [
+    "receipts.merchant",
+    {
+      "id": "m2",
+      "city": "city2",
+      "sector": "retail"
+    }
+  ],
+  [
+    "receipts.merchant",
+    {
+      "id": "m3",
+      "city": "city0",
+      "sector": "hotel"
+    }
+  ],
+  [
+    "receipts.merchant",
+    {
+      "id": "m4",
+      "city": "city1",
+      "sector": "food"
+    }
+  ],
+  [
+    "receipts.merchant",
+    {
+      "id": "m5",
+      "city": "city2",
+      "sector": "retail"
+    }
+  ],
+  [
+    "receipts.merchant",
+    {
+      "id": "m6",
+      "city": "city0",
+      "sector": "hotel"
+    }
+  ],
+  [
+    "receipts.merchant",
+    {
+      "id": "m7",
+      "city": "city1",
+      "sector": "food"
+    }
+  ],
+  [
+    "receipts.merchant",
+    {
+      "id": "m8",
+      "city": "city2",
+      "sector": "retail"
+    }
+  ],
+  [
+    "receipts.merchant",
+    {
+      "id": "m9",
+      "city": "city0",
+      "sector": "hotel"
+    }
+  ],
+  [
+    "receipts.merchant",
+    {
+      "id": "m10",
+      "city": "city1",
+      "sector": "food"
+    }
+  ],
+  [
+    "receipts.merchant",
+    {
+      "id": "m11",
+      "city": "city2",
+      "sector": "retail"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r0:0",
+      "merchant": "m0",
+      "cents": 20000,
+      "happened_at": "2026-07-01",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r1:0",
+      "merchant": "m1",
+      "cents": 20000,
+      "happened_at": "2026-07-02",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r1:1",
+      "merchant": "m2",
+      "cents": 40000,
+      "happened_at": "2026-07-02",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j1",
+      "tickets": [
+        "t1"
+      ],
+      "receipts": [
+        "r1:0",
+        "r1:1"
+      ],
+      "consent": "allowed",
+      "household": "h1"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r2:0",
+      "merchant": "m2",
+      "cents": 20000,
+      "happened_at": "2026-07-03",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r2:1",
+      "merchant": "m3",
+      "cents": 40000,
+      "happened_at": "2026-07-03",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r2:2",
+      "merchant": "m4",
+      "cents": 40000,
+      "happened_at": "2026-07-03",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j2",
+      "tickets": [
+        "t2"
+      ],
+      "receipts": [
+        "r2:0",
+        "r2:1",
+        "r2:2"
+      ],
+      "consent": "allowed",
+      "household": "h2"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r3:0",
+      "merchant": "m3",
+      "cents": 4000,
+      "happened_at": "2026-07-04",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j3",
+      "tickets": [
+        "t3"
+      ],
+      "receipts": [
+        "r3:0"
+      ],
+      "consent": "allowed",
+      "household": "h3"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r4:0",
+      "merchant": "m4",
+      "cents": 8000,
+      "happened_at": "2026-07-05",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r4:1",
+      "merchant": "m5",
+      "cents": 40000,
+      "happened_at": "2026-07-05",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j4",
+      "tickets": [
+        "t4",
+        "t4b"
+      ],
+      "receipts": [
+        "r4:0",
+        "r4:1"
+      ],
+      "consent": "allowed",
+      "household": "h4"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r5:0",
+      "merchant": "m5",
+      "cents": 40000,
+      "happened_at": "2026-07-06",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r5:1",
+      "merchant": "m6",
+      "cents": 8000,
+      "happened_at": "2026-07-06",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r5:2",
+      "merchant": "m7",
+      "cents": 40000,
+      "happened_at": "2026-07-06",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r6:0",
+      "merchant": "m6",
+      "cents": 8000,
+      "happened_at": "2026-07-07",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j6",
+      "tickets": [
+        "t6"
+      ],
+      "receipts": [
+        "r6:0"
+      ],
+      "consent": "allowed",
+      "household": "h6"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r7:0",
+      "merchant": "m7",
+      "cents": 4000,
+      "happened_at": "2026-07-08",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r7:1",
+      "merchant": "m8",
+      "cents": 4000,
+      "happened_at": "2026-07-08",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j7",
+      "tickets": [
+        "t7"
+      ],
+      "receipts": [
+        "r7:0",
+        "r7:1"
+      ],
+      "consent": "allowed",
+      "household": "h7"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r8:0",
+      "merchant": "m8",
+      "cents": 4000,
+      "happened_at": "2026-07-09",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r8:1",
+      "merchant": "m9",
+      "cents": 40000,
+      "happened_at": "2026-07-09",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r8:2",
+      "merchant": "m10",
+      "cents": 20000,
+      "happened_at": "2026-07-09",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j8",
+      "tickets": [
+        "t8",
+        "t8b"
+      ],
+      "receipts": [
+        "r8:0",
+        "r8:1",
+        "r8:2"
+      ],
+      "consent": "allowed",
+      "household": "h8"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r9:0",
+      "merchant": "m9",
+      "cents": 20000,
+      "happened_at": "2026-07-10",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j9",
+      "tickets": [
+        "t9"
+      ],
+      "receipts": [
+        "r9:0"
+      ],
+      "consent": "denied",
+      "household": "h9"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r10:0",
+      "merchant": "m10",
+      "cents": 40000,
+      "happened_at": "2026-07-11",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r10:1",
+      "merchant": "m11",
+      "cents": 4000,
+      "happened_at": "2026-07-11",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r11:0",
+      "merchant": "m11",
+      "cents": 20000,
+      "happened_at": "2026-07-12",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r11:1",
+      "merchant": "m0",
+      "cents": 8000,
+      "happened_at": "2026-07-12",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r11:2",
+      "merchant": "m1",
+      "cents": 40000,
+      "happened_at": "2026-07-12",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j11",
+      "tickets": [
+        "t11"
+      ],
+      "receipts": [
+        "r11:0",
+        "r11:1",
+        "r11:2"
+      ],
+      "consent": "allowed",
+      "household": "h11"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r12:0",
+      "merchant": "m0",
+      "cents": 8000,
+      "happened_at": "2026-07-13",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j12",
+      "tickets": [
+        "t12",
+        "t12b"
+      ],
+      "receipts": [
+        "r12:0"
+      ],
+      "consent": "allowed",
+      "household": "h12"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r13:0",
+      "merchant": "m1",
+      "cents": 4000,
+      "happened_at": "2026-07-14",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r13:1",
+      "merchant": "m2",
+      "cents": 40000,
+      "happened_at": "2026-07-14",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr13:1",
+      "receipt": "r13:1",
+      "cents": 20000
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j13",
+      "tickets": [
+        "t13"
+      ],
+      "receipts": [
+        "r13:0",
+        "r13:1"
+      ],
+      "consent": "allowed",
+      "household": "h13"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r14:0",
+      "merchant": "m2",
+      "cents": 8000,
+      "happened_at": "2026-07-15",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r14:1",
+      "merchant": "m3",
+      "cents": 4000,
+      "happened_at": "2026-07-15",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r14:2",
+      "merchant": "m4",
+      "cents": 40000,
+      "happened_at": "2026-07-15",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j14",
+      "tickets": [
+        "t14"
+      ],
+      "receipts": [
+        "r14:0",
+        "r14:1",
+        "r14:2"
+      ],
+      "consent": "allowed",
+      "household": "h14"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r15:0",
+      "merchant": "m3",
+      "cents": 20000,
+      "happened_at": "2026-07-16",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr15:0",
+      "receipt": "r15:0",
+      "cents": 10000
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r16:0",
+      "merchant": "m4",
+      "cents": 40000,
+      "happened_at": "2026-07-17",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r16:1",
+      "merchant": "m5",
+      "cents": 20000,
+      "happened_at": "2026-07-17",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j16",
+      "tickets": [
+        "t16",
+        "t16b"
+      ],
+      "receipts": [
+        "r16:0",
+        "r16:1"
+      ],
+      "consent": "allowed",
+      "household": "h16"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r17:0",
+      "merchant": "m5",
+      "cents": 20000,
+      "happened_at": "2026-07-18",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r17:1",
+      "merchant": "m6",
+      "cents": 4000,
+      "happened_at": "2026-07-18",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r17:2",
+      "merchant": "m7",
+      "cents": 4000,
+      "happened_at": "2026-07-18",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j17",
+      "tickets": [
+        "t17"
+      ],
+      "receipts": [
+        "r17:0",
+        "r17:1",
+        "r17:2"
+      ],
+      "consent": "allowed",
+      "household": "h17"
+    }
+  ],
+  [
+    "journeys.revoke",
+    {
+      "id": "j17",
+      "happened_at": "2026-07-20"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r18:0",
+      "merchant": "m6",
+      "cents": 40000,
+      "happened_at": "2026-07-19",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j18",
+      "tickets": [
+        "t18"
+      ],
+      "receipts": [
+        "r18:0"
+      ],
+      "consent": "denied",
+      "household": "h18"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r19:0",
+      "merchant": "m7",
+      "cents": 8000,
+      "happened_at": "2026-07-20",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r19:1",
+      "merchant": "m8",
+      "cents": 20000,
+      "happened_at": "2026-07-20",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr19:1",
+      "receipt": "r19:1",
+      "cents": 10000
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j19",
+      "tickets": [
+        "t19"
+      ],
+      "receipts": [
+        "r19:0",
+        "r19:1"
+      ],
+      "consent": "allowed",
+      "household": "h19"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r20:0",
+      "merchant": "m8",
+      "cents": 40000,
+      "happened_at": "2026-07-21",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r20:1",
+      "merchant": "m9",
+      "cents": 40000,
+      "happened_at": "2026-07-21",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r20:2",
+      "merchant": "m10",
+      "cents": 40000,
+      "happened_at": "2026-07-21",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r21:0",
+      "merchant": "m9",
+      "cents": 8000,
+      "happened_at": "2026-07-22",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j21",
+      "tickets": [
+        "t21"
+      ],
+      "receipts": [
+        "r21:0"
+      ],
+      "consent": "allowed",
+      "household": "h21"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r22:0",
+      "merchant": "m10",
+      "cents": 8000,
+      "happened_at": "2026-07-23",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r22:1",
+      "merchant": "m11",
+      "cents": 4000,
+      "happened_at": "2026-07-23",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j22",
+      "tickets": [
+        "t22"
+      ],
+      "receipts": [
+        "r22:0",
+        "r22:1"
+      ],
+      "consent": "allowed",
+      "household": "h22"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r23:0",
+      "merchant": "m11",
+      "cents": 8000,
+      "happened_at": "2026-07-24",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r23:1",
+      "merchant": "m0",
+      "cents": 20000,
+      "happened_at": "2026-07-24",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r23:2",
+      "merchant": "m1",
+      "cents": 4000,
+      "happened_at": "2026-07-24",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j23",
+      "tickets": [
+        "t23"
+      ],
+      "receipts": [
+        "r23:0",
+        "r23:1",
+        "r23:2"
+      ],
+      "consent": "allowed",
+      "household": "h23"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r24:0",
+      "merchant": "m0",
+      "cents": 40000,
+      "happened_at": "2026-07-25",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j24",
+      "tickets": [
+        "t24",
+        "t24b"
+      ],
+      "receipts": [
+        "r24:0"
+      ],
+      "consent": "allowed",
+      "household": "h24"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r25:0",
+      "merchant": "m1",
+      "cents": 40000,
+      "happened_at": "2026-07-26",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r25:1",
+      "merchant": "m2",
+      "cents": 40000,
+      "happened_at": "2026-07-26",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r26:0",
+      "merchant": "m2",
+      "cents": 8000,
+      "happened_at": "2026-07-27",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r26:1",
+      "merchant": "m3",
+      "cents": 40000,
+      "happened_at": "2026-07-27",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r26:2",
+      "merchant": "m4",
+      "cents": 20000,
+      "happened_at": "2026-07-27",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j26",
+      "tickets": [
+        "t26"
+      ],
+      "receipts": [
+        "r26:0",
+        "r26:1",
+        "r26:2"
+      ],
+      "consent": "allowed",
+      "household": "h26"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r27:0",
+      "merchant": "m3",
+      "cents": 8000,
+      "happened_at": "2026-07-28",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j27",
+      "tickets": [
+        "t27"
+      ],
+      "receipts": [
+        "r27:0"
+      ],
+      "consent": "denied",
+      "household": "h27"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r28:0",
+      "merchant": "m4",
+      "cents": 20000,
+      "happened_at": "2026-07-29",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r28:1",
+      "merchant": "m5",
+      "cents": 20000,
+      "happened_at": "2026-07-29",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j28",
+      "tickets": [
+        "t28",
+        "t28b"
+      ],
+      "receipts": [
+        "r28:0",
+        "r28:1"
+      ],
+      "consent": "allowed",
+      "household": "h28"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r29:0",
+      "merchant": "m5",
+      "cents": 20000,
+      "happened_at": "2026-07-30",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r29:1",
+      "merchant": "m6",
+      "cents": 8000,
+      "happened_at": "2026-07-30",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r29:2",
+      "merchant": "m7",
+      "cents": 4000,
+      "happened_at": "2026-07-30",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j29",
+      "tickets": [
+        "t29"
+      ],
+      "receipts": [
+        "r29:0",
+        "r29:1",
+        "r29:2"
+      ],
+      "consent": "allowed",
+      "household": "h29"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r30:0",
+      "merchant": "m6",
+      "cents": 20000,
+      "happened_at": "2026-07-31",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r31:0",
+      "merchant": "m7",
+      "cents": 4000,
+      "happened_at": "2026-08-01",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r31:1",
+      "merchant": "m8",
+      "cents": 40000,
+      "happened_at": "2026-08-01",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j31",
+      "tickets": [
+        "t31"
+      ],
+      "receipts": [
+        "r31:0",
+        "r31:1"
+      ],
+      "consent": "allowed",
+      "household": "h31"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r32:0",
+      "merchant": "m8",
+      "cents": 8000,
+      "happened_at": "2026-08-02",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r32:1",
+      "merchant": "m9",
+      "cents": 40000,
+      "happened_at": "2026-08-02",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r32:2",
+      "merchant": "m10",
+      "cents": 40000,
+      "happened_at": "2026-08-02",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j32",
+      "tickets": [
+        "t32",
+        "t32b"
+      ],
+      "receipts": [
+        "r32:0",
+        "r32:1",
+        "r32:2"
+      ],
+      "consent": "allowed",
+      "household": "h32"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r33:0",
+      "merchant": "m9",
+      "cents": 40000,
+      "happened_at": "2026-08-03",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j33",
+      "tickets": [
+        "t33"
+      ],
+      "receipts": [
+        "r33:0"
+      ],
+      "consent": "allowed",
+      "household": "h33"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r34:0",
+      "merchant": "m10",
+      "cents": 4000,
+      "happened_at": "2026-08-04",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r34:1",
+      "merchant": "m11",
+      "cents": 20000,
+      "happened_at": "2026-08-04",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j34",
+      "tickets": [
+        "t34"
+      ],
+      "receipts": [
+        "r34:0",
+        "r34:1"
+      ],
+      "consent": "allowed",
+      "household": "h34"
+    }
+  ],
+  [
+    "journeys.revoke",
+    {
+      "id": "j34",
+      "happened_at": "2026-08-06"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r35:0",
+      "merchant": "m11",
+      "cents": 40000,
+      "happened_at": "2026-08-05",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r35:1",
+      "merchant": "m0",
+      "cents": 20000,
+      "happened_at": "2026-08-05",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r35:2",
+      "merchant": "m1",
+      "cents": 8000,
+      "happened_at": "2026-08-05",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r36:0",
+      "merchant": "m0",
+      "cents": 40000,
+      "happened_at": "2026-08-06",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j36",
+      "tickets": [
+        "t36",
+        "t36b"
+      ],
+      "receipts": [
+        "r36:0"
+      ],
+      "consent": "denied",
+      "household": "h36"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r37:0",
+      "merchant": "m1",
+      "cents": 4000,
+      "happened_at": "2026-08-07",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r37:1",
+      "merchant": "m2",
+      "cents": 8000,
+      "happened_at": "2026-08-07",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr37:1",
+      "receipt": "r37:1",
+      "cents": 4000
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j37",
+      "tickets": [
+        "t37"
+      ],
+      "receipts": [
+        "r37:0",
+        "r37:1"
+      ],
+      "consent": "allowed",
+      "household": "h37"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r38:0",
+      "merchant": "m2",
+      "cents": 4000,
+      "happened_at": "2026-08-08",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r38:1",
+      "merchant": "m3",
+      "cents": 4000,
+      "happened_at": "2026-08-08",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r38:2",
+      "merchant": "m4",
+      "cents": 4000,
+      "happened_at": "2026-08-08",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j38",
+      "tickets": [
+        "t38"
+      ],
+      "receipts": [
+        "r38:0",
+        "r38:1",
+        "r38:2"
+      ],
+      "consent": "allowed",
+      "household": "h38"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r39:0",
+      "merchant": "m3",
+      "cents": 40000,
+      "happened_at": "2026-08-09",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j39",
+      "tickets": [
+        "t39"
+      ],
+      "receipts": [
+        "r39:0"
+      ],
+      "consent": "allowed",
+      "household": "h39"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r40:0",
+      "merchant": "m4",
+      "cents": 4000,
+      "happened_at": "2026-08-10",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r40:1",
+      "merchant": "m5",
+      "cents": 20000,
+      "happened_at": "2026-08-10",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r41:0",
+      "merchant": "m5",
+      "cents": 40000,
+      "happened_at": "2026-08-11",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r41:1",
+      "merchant": "m6",
+      "cents": 8000,
+      "happened_at": "2026-08-11",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r41:2",
+      "merchant": "m7",
+      "cents": 4000,
+      "happened_at": "2026-08-11",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j41",
+      "tickets": [
+        "t41"
+      ],
+      "receipts": [
+        "r41:0",
+        "r41:1",
+        "r41:2"
+      ],
+      "consent": "allowed",
+      "household": "h41"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r42:0",
+      "merchant": "m6",
+      "cents": 4000,
+      "happened_at": "2026-08-12",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j42",
+      "tickets": [
+        "t42"
+      ],
+      "receipts": [
+        "r42:0"
+      ],
+      "consent": "allowed",
+      "household": "h42"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r43:0",
+      "merchant": "m7",
+      "cents": 40000,
+      "happened_at": "2026-08-13",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r43:1",
+      "merchant": "m8",
+      "cents": 20000,
+      "happened_at": "2026-08-13",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr43:1",
+      "receipt": "r43:1",
+      "cents": 10000
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j43",
+      "tickets": [
+        "t43"
+      ],
+      "receipts": [
+        "r43:0",
+        "r43:1"
+      ],
+      "consent": "allowed",
+      "household": "h43"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r44:0",
+      "merchant": "m8",
+      "cents": 20000,
+      "happened_at": "2026-08-14",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r44:1",
+      "merchant": "m9",
+      "cents": 40000,
+      "happened_at": "2026-08-14",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r44:2",
+      "merchant": "m10",
+      "cents": 20000,
+      "happened_at": "2026-08-14",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j44",
+      "tickets": [
+        "t44",
+        "t44b"
+      ],
+      "receipts": [
+        "r44:0",
+        "r44:1",
+        "r44:2"
+      ],
+      "consent": "allowed",
+      "household": "h44"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r45:0",
+      "merchant": "m9",
+      "cents": 40000,
+      "happened_at": "2026-08-15",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r46:0",
+      "merchant": "m10",
+      "cents": 20000,
+      "happened_at": "2026-08-16",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr46:0",
+      "receipt": "r46:0",
+      "cents": 10000
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r46:1",
+      "merchant": "m11",
+      "cents": 8000,
+      "happened_at": "2026-08-16",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j46",
+      "tickets": [
+        "t46"
+      ],
+      "receipts": [
+        "r46:0",
+        "r46:1"
+      ],
+      "consent": "allowed",
+      "household": "h46"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r47:0",
+      "merchant": "m11",
+      "cents": 20000,
+      "happened_at": "2026-08-17",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r47:1",
+      "merchant": "m0",
+      "cents": 40000,
+      "happened_at": "2026-08-17",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr47:1",
+      "receipt": "r47:1",
+      "cents": 20000
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r47:2",
+      "merchant": "m1",
+      "cents": 20000,
+      "happened_at": "2026-08-17",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j47",
+      "tickets": [
+        "t47"
+      ],
+      "receipts": [
+        "r47:0",
+        "r47:1",
+        "r47:2"
+      ],
+      "consent": "allowed",
+      "household": "h47"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r48:0",
+      "merchant": "m0",
+      "cents": 40000,
+      "happened_at": "2026-08-18",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j48",
+      "tickets": [
+        "t48",
+        "t48b"
+      ],
+      "receipts": [
+        "r48:0"
+      ],
+      "consent": "allowed",
+      "household": "h48"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r49:0",
+      "merchant": "m1",
+      "cents": 8000,
+      "happened_at": "2026-08-19",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr49:0",
+      "receipt": "r49:0",
+      "cents": 4000
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r49:1",
+      "merchant": "m2",
+      "cents": 8000,
+      "happened_at": "2026-08-19",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j49",
+      "tickets": [
+        "t49"
+      ],
+      "receipts": [
+        "r49:0",
+        "r49:1"
+      ],
+      "consent": "allowed",
+      "household": "h49"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r50:0",
+      "merchant": "m2",
+      "cents": 8000,
+      "happened_at": "2026-08-20",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r50:1",
+      "merchant": "m3",
+      "cents": 40000,
+      "happened_at": "2026-08-20",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r50:2",
+      "merchant": "m4",
+      "cents": 40000,
+      "happened_at": "2026-08-20",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r51:0",
+      "merchant": "m3",
+      "cents": 40000,
+      "happened_at": "2026-08-21",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j51",
+      "tickets": [
+        "t51"
+      ],
+      "receipts": [
+        "r51:0"
+      ],
+      "consent": "allowed",
+      "household": "h51"
+    }
+  ],
+  [
+    "journeys.revoke",
+    {
+      "id": "j51",
+      "happened_at": "2026-08-23"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r52:0",
+      "merchant": "m4",
+      "cents": 4000,
+      "happened_at": "2026-08-22",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r52:1",
+      "merchant": "m5",
+      "cents": 20000,
+      "happened_at": "2026-08-22",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j52",
+      "tickets": [
+        "t52",
+        "t52b"
+      ],
+      "receipts": [
+        "r52:0",
+        "r52:1"
+      ],
+      "consent": "allowed",
+      "household": "h52"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r53:0",
+      "merchant": "m5",
+      "cents": 40000,
+      "happened_at": "2026-08-23",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r53:1",
+      "merchant": "m6",
+      "cents": 20000,
+      "happened_at": "2026-08-23",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r53:2",
+      "merchant": "m7",
+      "cents": 40000,
+      "happened_at": "2026-08-23",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j53",
+      "tickets": [
+        "t53"
+      ],
+      "receipts": [
+        "r53:0",
+        "r53:1",
+        "r53:2"
+      ],
+      "consent": "allowed",
+      "household": "h53"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r54:0",
+      "merchant": "m6",
+      "cents": 8000,
+      "happened_at": "2026-08-24",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j54",
+      "tickets": [
+        "t54"
+      ],
+      "receipts": [
+        "r54:0"
+      ],
+      "consent": "denied",
+      "household": "h54"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r55:0",
+      "merchant": "m7",
+      "cents": 4000,
+      "happened_at": "2026-08-25",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r55:1",
+      "merchant": "m8",
+      "cents": 40000,
+      "happened_at": "2026-08-25",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r56:0",
+      "merchant": "m8",
+      "cents": 8000,
+      "happened_at": "2026-08-26",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r56:1",
+      "merchant": "m9",
+      "cents": 8000,
+      "happened_at": "2026-08-26",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r56:2",
+      "merchant": "m10",
+      "cents": 40000,
+      "happened_at": "2026-08-26",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j56",
+      "tickets": [
+        "t56",
+        "t56b"
+      ],
+      "receipts": [
+        "r56:0",
+        "r56:1",
+        "r56:2"
+      ],
+      "consent": "allowed",
+      "household": "h56"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r57:0",
+      "merchant": "m9",
+      "cents": 20000,
+      "happened_at": "2026-08-27",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j57",
+      "tickets": [
+        "t57"
+      ],
+      "receipts": [
+        "r57:0"
+      ],
+      "consent": "allowed",
+      "household": "h57"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r58:0",
+      "merchant": "m10",
+      "cents": 20000,
+      "happened_at": "2026-08-28",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r58:1",
+      "merchant": "m11",
+      "cents": 40000,
+      "happened_at": "2026-08-28",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j58",
+      "tickets": [
+        "t58"
+      ],
+      "receipts": [
+        "r58:0",
+        "r58:1"
+      ],
+      "consent": "allowed",
+      "household": "h58"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r59:0",
+      "merchant": "m11",
+      "cents": 40000,
+      "happened_at": "2026-08-29",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r59:1",
+      "merchant": "m0",
+      "cents": 8000,
+      "happened_at": "2026-08-29",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r59:2",
+      "merchant": "m1",
+      "cents": 20000,
+      "happened_at": "2026-08-29",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j59",
+      "tickets": [
+        "t59"
+      ],
+      "receipts": [
+        "r59:0",
+        "r59:1",
+        "r59:2"
+      ],
+      "consent": "allowed",
+      "household": "h59"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r60:0",
+      "merchant": "m0",
+      "cents": 4000,
+      "happened_at": "2026-08-30",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r61:0",
+      "merchant": "m1",
+      "cents": 4000,
+      "happened_at": "2026-08-31",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r61:1",
+      "merchant": "m2",
+      "cents": 4000,
+      "happened_at": "2026-08-31",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j61",
+      "tickets": [
+        "t61"
+      ],
+      "receipts": [
+        "r61:0",
+        "r61:1"
+      ],
+      "consent": "allowed",
+      "household": "h61"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r62:0",
+      "merchant": "m2",
+      "cents": 20000,
+      "happened_at": "2026-09-01",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r62:1",
+      "merchant": "m3",
+      "cents": 20000,
+      "happened_at": "2026-09-01",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r62:2",
+      "merchant": "m4",
+      "cents": 20000,
+      "happened_at": "2026-09-01",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j62",
+      "tickets": [
+        "t62"
+      ],
+      "receipts": [
+        "r62:0",
+        "r62:1",
+        "r62:2"
+      ],
+      "consent": "allowed",
+      "household": "h62"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r63:0",
+      "merchant": "m3",
+      "cents": 8000,
+      "happened_at": "2026-09-02",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j63",
+      "tickets": [
+        "t63"
+      ],
+      "receipts": [
+        "r63:0"
+      ],
+      "consent": "denied",
+      "household": "h63"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r64:0",
+      "merchant": "m4",
+      "cents": 40000,
+      "happened_at": "2026-09-03",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr64:0",
+      "receipt": "r64:0",
+      "cents": 20000
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r64:1",
+      "merchant": "m5",
+      "cents": 20000,
+      "happened_at": "2026-09-03",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j64",
+      "tickets": [
+        "t64",
+        "t64b"
+      ],
+      "receipts": [
+        "r64:0",
+        "r64:1"
+      ],
+      "consent": "allowed",
+      "household": "h64"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r65:0",
+      "merchant": "m5",
+      "cents": 40000,
+      "happened_at": "2026-09-04",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r65:1",
+      "merchant": "m6",
+      "cents": 4000,
+      "happened_at": "2026-09-04",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r65:2",
+      "merchant": "m7",
+      "cents": 4000,
+      "happened_at": "2026-09-04",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r66:0",
+      "merchant": "m6",
+      "cents": 40000,
+      "happened_at": "2026-09-05",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j66",
+      "tickets": [
+        "t66"
+      ],
+      "receipts": [
+        "r66:0"
+      ],
+      "consent": "allowed",
+      "household": "h66"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r67:0",
+      "merchant": "m7",
+      "cents": 4000,
+      "happened_at": "2026-09-06",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r67:1",
+      "merchant": "m8",
+      "cents": 4000,
+      "happened_at": "2026-09-06",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j67",
+      "tickets": [
+        "t67"
+      ],
+      "receipts": [
+        "r67:0",
+        "r67:1"
+      ],
+      "consent": "allowed",
+      "household": "h67"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r68:0",
+      "merchant": "m8",
+      "cents": 40000,
+      "happened_at": "2026-09-07",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r68:1",
+      "merchant": "m9",
+      "cents": 8000,
+      "happened_at": "2026-09-07",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr68:1",
+      "receipt": "r68:1",
+      "cents": 4000
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r68:2",
+      "merchant": "m10",
+      "cents": 4000,
+      "happened_at": "2026-09-07",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j68",
+      "tickets": [
+        "t68",
+        "t68b"
+      ],
+      "receipts": [
+        "r68:0",
+        "r68:1",
+        "r68:2"
+      ],
+      "consent": "allowed",
+      "household": "h68"
+    }
+  ],
+  [
+    "journeys.revoke",
+    {
+      "id": "j68",
+      "happened_at": "2026-09-09"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r69:0",
+      "merchant": "m9",
+      "cents": 20000,
+      "happened_at": "2026-09-08",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j69",
+      "tickets": [
+        "t69"
+      ],
+      "receipts": [
+        "r69:0"
+      ],
+      "consent": "allowed",
+      "household": "h69"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r70:0",
+      "merchant": "m10",
+      "cents": 20000,
+      "happened_at": "2026-09-09",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r70:1",
+      "merchant": "m11",
+      "cents": 8000,
+      "happened_at": "2026-09-09",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r71:0",
+      "merchant": "m11",
+      "cents": 8000,
+      "happened_at": "2026-09-10",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r71:1",
+      "merchant": "m0",
+      "cents": 4000,
+      "happened_at": "2026-09-10",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr71:1",
+      "receipt": "r71:1",
+      "cents": 2000
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r71:2",
+      "merchant": "m1",
+      "cents": 8000,
+      "happened_at": "2026-09-10",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j71",
+      "tickets": [
+        "t71"
+      ],
+      "receipts": [
+        "r71:0",
+        "r71:1",
+        "r71:2"
+      ],
+      "consent": "allowed",
+      "household": "h71"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r72:0",
+      "merchant": "m0",
+      "cents": 20000,
+      "happened_at": "2026-09-11",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr72:0",
+      "receipt": "r72:0",
+      "cents": 10000
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j72",
+      "tickets": [
+        "t72",
+        "t72b"
+      ],
+      "receipts": [
+        "r72:0"
+      ],
+      "consent": "denied",
+      "household": "h72"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r73:0",
+      "merchant": "m1",
+      "cents": 40000,
+      "happened_at": "2026-09-12",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r73:1",
+      "merchant": "m2",
+      "cents": 8000,
+      "happened_at": "2026-09-12",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j73",
+      "tickets": [
+        "t73"
+      ],
+      "receipts": [
+        "r73:0",
+        "r73:1"
+      ],
+      "consent": "allowed",
+      "household": "h73"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r74:0",
+      "merchant": "m2",
+      "cents": 20000,
+      "happened_at": "2026-09-13",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r74:1",
+      "merchant": "m3",
+      "cents": 4000,
+      "happened_at": "2026-09-13",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r74:2",
+      "merchant": "m4",
+      "cents": 20000,
+      "happened_at": "2026-09-13",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j74",
+      "tickets": [
+        "t74"
+      ],
+      "receipts": [
+        "r74:0",
+        "r74:1",
+        "r74:2"
+      ],
+      "consent": "allowed",
+      "household": "h74"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r75:0",
+      "merchant": "m3",
+      "cents": 8000,
+      "happened_at": "2026-09-14",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r76:0",
+      "merchant": "m4",
+      "cents": 20000,
+      "happened_at": "2026-09-15",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r76:1",
+      "merchant": "m5",
+      "cents": 40000,
+      "happened_at": "2026-09-15",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j76",
+      "tickets": [
+        "t76",
+        "t76b"
+      ],
+      "receipts": [
+        "r76:0",
+        "r76:1"
+      ],
+      "consent": "allowed",
+      "household": "h76"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r77:0",
+      "merchant": "m5",
+      "cents": 8000,
+      "happened_at": "2026-09-16",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r77:1",
+      "merchant": "m6",
+      "cents": 8000,
+      "happened_at": "2026-09-16",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r77:2",
+      "merchant": "m7",
+      "cents": 40000,
+      "happened_at": "2026-09-16",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j77",
+      "tickets": [
+        "t77"
+      ],
+      "receipts": [
+        "r77:0",
+        "r77:1",
+        "r77:2"
+      ],
+      "consent": "allowed",
+      "household": "h77"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r78:0",
+      "merchant": "m6",
+      "cents": 40000,
+      "happened_at": "2026-09-17",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j78",
+      "tickets": [
+        "t78"
+      ],
+      "receipts": [
+        "r78:0"
+      ],
+      "consent": "allowed",
+      "household": "h78"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r79:0",
+      "merchant": "m7",
+      "cents": 40000,
+      "happened_at": "2026-09-18",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r79:1",
+      "merchant": "m8",
+      "cents": 8000,
+      "happened_at": "2026-09-18",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j79",
+      "tickets": [
+        "t79"
+      ],
+      "receipts": [
+        "r79:0",
+        "r79:1"
+      ],
+      "consent": "allowed",
+      "household": "h79"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r80:0",
+      "merchant": "m8",
+      "cents": 8000,
+      "happened_at": "2026-09-19",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r80:1",
+      "merchant": "m9",
+      "cents": 20000,
+      "happened_at": "2026-09-19",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r80:2",
+      "merchant": "m10",
+      "cents": 20000,
+      "happened_at": "2026-09-19",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r81:0",
+      "merchant": "m9",
+      "cents": 8000,
+      "happened_at": "2026-09-20",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j81",
+      "tickets": [
+        "t81"
+      ],
+      "receipts": [
+        "r81:0"
+      ],
+      "consent": "denied",
+      "household": "h81"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r82:0",
+      "merchant": "m10",
+      "cents": 4000,
+      "happened_at": "2026-09-21",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r82:1",
+      "merchant": "m11",
+      "cents": 40000,
+      "happened_at": "2026-09-21",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr82:1",
+      "receipt": "r82:1",
+      "cents": 20000
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j82",
+      "tickets": [
+        "t82"
+      ],
+      "receipts": [
+        "r82:0",
+        "r82:1"
+      ],
+      "consent": "allowed",
+      "household": "h82"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r83:0",
+      "merchant": "m11",
+      "cents": 8000,
+      "happened_at": "2026-09-22",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r83:1",
+      "merchant": "m0",
+      "cents": 40000,
+      "happened_at": "2026-09-22",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r83:2",
+      "merchant": "m1",
+      "cents": 8000,
+      "happened_at": "2026-09-22",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j83",
+      "tickets": [
+        "t83"
+      ],
+      "receipts": [
+        "r83:0",
+        "r83:1",
+        "r83:2"
+      ],
+      "consent": "allowed",
+      "household": "h83"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r84:0",
+      "merchant": "m0",
+      "cents": 40000,
+      "happened_at": "2026-07-01",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j84",
+      "tickets": [
+        "t84",
+        "t84b"
+      ],
+      "receipts": [
+        "r84:0"
+      ],
+      "consent": "allowed",
+      "household": "h84"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r85:0",
+      "merchant": "m1",
+      "cents": 20000,
+      "happened_at": "2026-07-02",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r85:1",
+      "merchant": "m2",
+      "cents": 4000,
+      "happened_at": "2026-07-02",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r86:0",
+      "merchant": "m2",
+      "cents": 4000,
+      "happened_at": "2026-07-03",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r86:1",
+      "merchant": "m3",
+      "cents": 40000,
+      "happened_at": "2026-07-03",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r86:2",
+      "merchant": "m4",
+      "cents": 20000,
+      "happened_at": "2026-07-03",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j86",
+      "tickets": [
+        "t86"
+      ],
+      "receipts": [
+        "r86:0",
+        "r86:1",
+        "r86:2"
+      ],
+      "consent": "allowed",
+      "household": "h86"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r87:0",
+      "merchant": "m3",
+      "cents": 40000,
+      "happened_at": "2026-07-04",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j87",
+      "tickets": [
+        "t87"
+      ],
+      "receipts": [
+        "r87:0"
+      ],
+      "consent": "allowed",
+      "household": "h87"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r88:0",
+      "merchant": "m4",
+      "cents": 20000,
+      "happened_at": "2026-07-05",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r88:1",
+      "merchant": "m5",
+      "cents": 20000,
+      "happened_at": "2026-07-05",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j88",
+      "tickets": [
+        "t88",
+        "t88b"
+      ],
+      "receipts": [
+        "r88:0",
+        "r88:1"
+      ],
+      "consent": "allowed",
+      "household": "h88"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r89:0",
+      "merchant": "m5",
+      "cents": 20000,
+      "happened_at": "2026-07-06",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r89:1",
+      "merchant": "m6",
+      "cents": 40000,
+      "happened_at": "2026-07-06",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r89:2",
+      "merchant": "m7",
+      "cents": 40000,
+      "happened_at": "2026-07-06",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j89",
+      "tickets": [
+        "t89"
+      ],
+      "receipts": [
+        "r89:0",
+        "r89:1",
+        "r89:2"
+      ],
+      "consent": "allowed",
+      "household": "h89"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r90:0",
+      "merchant": "m6",
+      "cents": 20000,
+      "happened_at": "2026-07-07",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r91:0",
+      "merchant": "m7",
+      "cents": 40000,
+      "happened_at": "2026-07-08",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r91:1",
+      "merchant": "m8",
+      "cents": 20000,
+      "happened_at": "2026-07-08",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j91",
+      "tickets": [
+        "t91"
+      ],
+      "receipts": [
+        "r91:0",
+        "r91:1"
+      ],
+      "consent": "allowed",
+      "household": "h91"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r92:0",
+      "merchant": "m8",
+      "cents": 4000,
+      "happened_at": "2026-07-09",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r92:1",
+      "merchant": "m9",
+      "cents": 8000,
+      "happened_at": "2026-07-09",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r92:2",
+      "merchant": "m10",
+      "cents": 20000,
+      "happened_at": "2026-07-09",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j92",
+      "tickets": [
+        "t92",
+        "t92b"
+      ],
+      "receipts": [
+        "r92:0",
+        "r92:1",
+        "r92:2"
+      ],
+      "consent": "allowed",
+      "household": "h92"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r93:0",
+      "merchant": "m9",
+      "cents": 40000,
+      "happened_at": "2026-07-10",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j93",
+      "tickets": [
+        "t93"
+      ],
+      "receipts": [
+        "r93:0"
+      ],
+      "consent": "allowed",
+      "household": "h93"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r94:0",
+      "merchant": "m10",
+      "cents": 40000,
+      "happened_at": "2026-07-11",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r94:1",
+      "merchant": "m11",
+      "cents": 8000,
+      "happened_at": "2026-07-11",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j94",
+      "tickets": [
+        "t94"
+      ],
+      "receipts": [
+        "r94:0",
+        "r94:1"
+      ],
+      "consent": "allowed",
+      "household": "h94"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r95:0",
+      "merchant": "m11",
+      "cents": 8000,
+      "happened_at": "2026-07-12",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r95:1",
+      "merchant": "m0",
+      "cents": 8000,
+      "happened_at": "2026-07-12",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r95:2",
+      "merchant": "m1",
+      "cents": 40000,
+      "happened_at": "2026-07-12",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r96:0",
+      "merchant": "m0",
+      "cents": 40000,
+      "happened_at": "2026-07-13",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j96",
+      "tickets": [
+        "t96",
+        "t96b"
+      ],
+      "receipts": [
+        "r96:0"
+      ],
+      "consent": "allowed",
+      "household": "h96"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r97:0",
+      "merchant": "m1",
+      "cents": 8000,
+      "happened_at": "2026-07-14",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r97:1",
+      "merchant": "m2",
+      "cents": 4000,
+      "happened_at": "2026-07-14",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j97",
+      "tickets": [
+        "t97"
+      ],
+      "receipts": [
+        "r97:0",
+        "r97:1"
+      ],
+      "consent": "allowed",
+      "household": "h97"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r98:0",
+      "merchant": "m2",
+      "cents": 40000,
+      "happened_at": "2026-07-15",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r98:1",
+      "merchant": "m3",
+      "cents": 20000,
+      "happened_at": "2026-07-15",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r98:2",
+      "merchant": "m4",
+      "cents": 4000,
+      "happened_at": "2026-07-15",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j98",
+      "tickets": [
+        "t98"
+      ],
+      "receipts": [
+        "r98:0",
+        "r98:1",
+        "r98:2"
+      ],
+      "consent": "allowed",
+      "household": "h98"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r99:0",
+      "merchant": "m3",
+      "cents": 40000,
+      "happened_at": "2026-07-16",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j99",
+      "tickets": [
+        "t99"
+      ],
+      "receipts": [
+        "r99:0"
+      ],
+      "consent": "denied",
+      "household": "h99"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r100:0",
+      "merchant": "m4",
+      "cents": 20000,
+      "happened_at": "2026-07-17",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r100:1",
+      "merchant": "m5",
+      "cents": 4000,
+      "happened_at": "2026-07-17",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r101:0",
+      "merchant": "m5",
+      "cents": 8000,
+      "happened_at": "2026-07-18",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r101:1",
+      "merchant": "m6",
+      "cents": 4000,
+      "happened_at": "2026-07-18",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r101:2",
+      "merchant": "m7",
+      "cents": 40000,
+      "happened_at": "2026-07-18",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j101",
+      "tickets": [
+        "t101"
+      ],
+      "receipts": [
+        "r101:0",
+        "r101:1",
+        "r101:2"
+      ],
+      "consent": "allowed",
+      "household": "h1"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r102:0",
+      "merchant": "m6",
+      "cents": 20000,
+      "happened_at": "2026-07-19",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j102",
+      "tickets": [
+        "t102"
+      ],
+      "receipts": [
+        "r102:0"
+      ],
+      "consent": "allowed",
+      "household": "h2"
+    }
+  ],
+  [
+    "journeys.revoke",
+    {
+      "id": "j102",
+      "happened_at": "2026-07-21"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r103:0",
+      "merchant": "m7",
+      "cents": 8000,
+      "happened_at": "2026-07-20",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r103:1",
+      "merchant": "m8",
+      "cents": 40000,
+      "happened_at": "2026-07-20",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j103",
+      "tickets": [
+        "t103"
+      ],
+      "receipts": [
+        "r103:0",
+        "r103:1"
+      ],
+      "consent": "allowed",
+      "household": "h3"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r104:0",
+      "merchant": "m8",
+      "cents": 4000,
+      "happened_at": "2026-07-21",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r104:1",
+      "merchant": "m9",
+      "cents": 4000,
+      "happened_at": "2026-07-21",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r104:2",
+      "merchant": "m10",
+      "cents": 4000,
+      "happened_at": "2026-07-21",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j104",
+      "tickets": [
+        "t104",
+        "t104b"
+      ],
+      "receipts": [
+        "r104:0",
+        "r104:1",
+        "r104:2"
+      ],
+      "consent": "allowed",
+      "household": "h4"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r105:0",
+      "merchant": "m9",
+      "cents": 40000,
+      "happened_at": "2026-07-22",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r106:0",
+      "merchant": "m10",
+      "cents": 4000,
+      "happened_at": "2026-07-23",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr106:0",
+      "receipt": "r106:0",
+      "cents": 2000
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r106:1",
+      "merchant": "m11",
+      "cents": 8000,
+      "happened_at": "2026-07-23",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr106:1",
+      "receipt": "r106:1",
+      "cents": 4000
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j106",
+      "tickets": [
+        "t106"
+      ],
+      "receipts": [
+        "r106:0",
+        "r106:1"
+      ],
+      "consent": "allowed",
+      "household": "h6"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r107:0",
+      "merchant": "m11",
+      "cents": 8000,
+      "happened_at": "2026-07-24",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r107:1",
+      "merchant": "m0",
+      "cents": 40000,
+      "happened_at": "2026-07-24",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r107:2",
+      "merchant": "m1",
+      "cents": 20000,
+      "happened_at": "2026-07-24",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j107",
+      "tickets": [
+        "t107"
+      ],
+      "receipts": [
+        "r107:0",
+        "r107:1",
+        "r107:2"
+      ],
+      "consent": "allowed",
+      "household": "h7"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r108:0",
+      "merchant": "m0",
+      "cents": 4000,
+      "happened_at": "2026-07-25",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j108",
+      "tickets": [
+        "t108",
+        "t108b"
+      ],
+      "receipts": [
+        "r108:0"
+      ],
+      "consent": "denied",
+      "household": "h8"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r109:0",
+      "merchant": "m1",
+      "cents": 20000,
+      "happened_at": "2026-07-26",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r109:1",
+      "merchant": "m2",
+      "cents": 20000,
+      "happened_at": "2026-07-26",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j109",
+      "tickets": [
+        "t109"
+      ],
+      "receipts": [
+        "r109:0",
+        "r109:1"
+      ],
+      "consent": "allowed",
+      "household": "h9"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r110:0",
+      "merchant": "m2",
+      "cents": 4000,
+      "happened_at": "2026-07-27",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr110:0",
+      "receipt": "r110:0",
+      "cents": 2000
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r110:1",
+      "merchant": "m3",
+      "cents": 4000,
+      "happened_at": "2026-07-27",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r110:2",
+      "merchant": "m4",
+      "cents": 40000,
+      "happened_at": "2026-07-27",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr110:2",
+      "receipt": "r110:2",
+      "cents": 20000
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r111:0",
+      "merchant": "m3",
+      "cents": 4000,
+      "happened_at": "2026-07-28",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j111",
+      "tickets": [
+        "t111"
+      ],
+      "receipts": [
+        "r111:0"
+      ],
+      "consent": "allowed",
+      "household": "h11"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r112:0",
+      "merchant": "m4",
+      "cents": 20000,
+      "happened_at": "2026-07-29",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r112:1",
+      "merchant": "m5",
+      "cents": 8000,
+      "happened_at": "2026-07-29",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j112",
+      "tickets": [
+        "t112",
+        "t112b"
+      ],
+      "receipts": [
+        "r112:0",
+        "r112:1"
+      ],
+      "consent": "allowed",
+      "household": "h12"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r113:0",
+      "merchant": "m5",
+      "cents": 4000,
+      "happened_at": "2026-07-30",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r113:1",
+      "merchant": "m6",
+      "cents": 40000,
+      "happened_at": "2026-07-30",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r113:2",
+      "merchant": "m7",
+      "cents": 4000,
+      "happened_at": "2026-07-30",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j113",
+      "tickets": [
+        "t113"
+      ],
+      "receipts": [
+        "r113:0",
+        "r113:1",
+        "r113:2"
+      ],
+      "consent": "allowed",
+      "household": "h13"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r114:0",
+      "merchant": "m6",
+      "cents": 4000,
+      "happened_at": "2026-07-31",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr114:0",
+      "receipt": "r114:0",
+      "cents": 2000
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j114",
+      "tickets": [
+        "t114"
+      ],
+      "receipts": [
+        "r114:0"
+      ],
+      "consent": "allowed",
+      "household": "h14"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r115:0",
+      "merchant": "m7",
+      "cents": 40000,
+      "happened_at": "2026-08-01",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r115:1",
+      "merchant": "m8",
+      "cents": 4000,
+      "happened_at": "2026-08-01",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r116:0",
+      "merchant": "m8",
+      "cents": 4000,
+      "happened_at": "2026-08-02",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r116:1",
+      "merchant": "m9",
+      "cents": 8000,
+      "happened_at": "2026-08-02",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r116:2",
+      "merchant": "m10",
+      "cents": 8000,
+      "happened_at": "2026-08-02",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j116",
+      "tickets": [
+        "t116",
+        "t116b"
+      ],
+      "receipts": [
+        "r116:0",
+        "r116:1",
+        "r116:2"
+      ],
+      "consent": "allowed",
+      "household": "h16"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r117:0",
+      "merchant": "m9",
+      "cents": 20000,
+      "happened_at": "2026-08-03",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr117:0",
+      "receipt": "r117:0",
+      "cents": 10000
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j117",
+      "tickets": [
+        "t117"
+      ],
+      "receipts": [
+        "r117:0"
+      ],
+      "consent": "denied",
+      "household": "h17"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r118:0",
+      "merchant": "m10",
+      "cents": 4000,
+      "happened_at": "2026-08-04",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r118:1",
+      "merchant": "m11",
+      "cents": 4000,
+      "happened_at": "2026-08-04",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j118",
+      "tickets": [
+        "t118"
+      ],
+      "receipts": [
+        "r118:0",
+        "r118:1"
+      ],
+      "consent": "allowed",
+      "household": "h18"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r119:0",
+      "merchant": "m11",
+      "cents": 8000,
+      "happened_at": "2026-08-05",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r119:1",
+      "merchant": "m0",
+      "cents": 40000,
+      "happened_at": "2026-08-05",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r119:2",
+      "merchant": "m1",
+      "cents": 8000,
+      "happened_at": "2026-08-05",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j119",
+      "tickets": [
+        "t119"
+      ],
+      "receipts": [
+        "r119:0",
+        "r119:1",
+        "r119:2"
+      ],
+      "consent": "allowed",
+      "household": "h19"
+    }
+  ],
+  [
+    "journeys.revoke",
+    {
+      "id": "j119",
+      "happened_at": "2026-08-07"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r120:0",
+      "merchant": "m0",
+      "cents": 4000,
+      "happened_at": "2026-08-06",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r121:0",
+      "merchant": "m1",
+      "cents": 40000,
+      "happened_at": "2026-08-07",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r121:1",
+      "merchant": "m2",
+      "cents": 8000,
+      "happened_at": "2026-08-07",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j121",
+      "tickets": [
+        "t121"
+      ],
+      "receipts": [
+        "r121:0",
+        "r121:1"
+      ],
+      "consent": "allowed",
+      "household": "h21"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r122:0",
+      "merchant": "m2",
+      "cents": 20000,
+      "happened_at": "2026-08-08",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r122:1",
+      "merchant": "m3",
+      "cents": 8000,
+      "happened_at": "2026-08-08",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r122:2",
+      "merchant": "m4",
+      "cents": 20000,
+      "happened_at": "2026-08-08",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j122",
+      "tickets": [
+        "t122"
+      ],
+      "receipts": [
+        "r122:0",
+        "r122:1",
+        "r122:2"
+      ],
+      "consent": "allowed",
+      "household": "h22"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r123:0",
+      "merchant": "m3",
+      "cents": 8000,
+      "happened_at": "2026-08-09",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j123",
+      "tickets": [
+        "t123"
+      ],
+      "receipts": [
+        "r123:0"
+      ],
+      "consent": "allowed",
+      "household": "h23"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r124:0",
+      "merchant": "m4",
+      "cents": 40000,
+      "happened_at": "2026-08-10",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r124:1",
+      "merchant": "m5",
+      "cents": 40000,
+      "happened_at": "2026-08-10",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j124",
+      "tickets": [
+        "t124",
+        "t124b"
+      ],
+      "receipts": [
+        "r124:0",
+        "r124:1"
+      ],
+      "consent": "allowed",
+      "household": "h24"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r125:0",
+      "merchant": "m5",
+      "cents": 20000,
+      "happened_at": "2026-08-11",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r125:1",
+      "merchant": "m6",
+      "cents": 8000,
+      "happened_at": "2026-08-11",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r125:2",
+      "merchant": "m7",
+      "cents": 40000,
+      "happened_at": "2026-08-11",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r126:0",
+      "merchant": "m6",
+      "cents": 8000,
+      "happened_at": "2026-08-12",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j126",
+      "tickets": [
+        "t126"
+      ],
+      "receipts": [
+        "r126:0"
+      ],
+      "consent": "denied",
+      "household": "h26"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r127:0",
+      "merchant": "m7",
+      "cents": 20000,
+      "happened_at": "2026-08-13",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr127:0",
+      "receipt": "r127:0",
+      "cents": 10000
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r127:1",
+      "merchant": "m8",
+      "cents": 8000,
+      "happened_at": "2026-08-13",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j127",
+      "tickets": [
+        "t127"
+      ],
+      "receipts": [
+        "r127:0",
+        "r127:1"
+      ],
+      "consent": "allowed",
+      "household": "h27"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r128:0",
+      "merchant": "m8",
+      "cents": 8000,
+      "happened_at": "2026-08-14",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r128:1",
+      "merchant": "m9",
+      "cents": 20000,
+      "happened_at": "2026-08-14",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r128:2",
+      "merchant": "m10",
+      "cents": 8000,
+      "happened_at": "2026-08-14",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j128",
+      "tickets": [
+        "t128",
+        "t128b"
+      ],
+      "receipts": [
+        "r128:0",
+        "r128:1",
+        "r128:2"
+      ],
+      "consent": "allowed",
+      "household": "h28"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r129:0",
+      "merchant": "m9",
+      "cents": 40000,
+      "happened_at": "2026-08-15",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j129",
+      "tickets": [
+        "t129"
+      ],
+      "receipts": [
+        "r129:0"
+      ],
+      "consent": "allowed",
+      "household": "h29"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r130:0",
+      "merchant": "m10",
+      "cents": 40000,
+      "happened_at": "2026-08-16",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r130:1",
+      "merchant": "m11",
+      "cents": 8000,
+      "happened_at": "2026-08-16",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r131:0",
+      "merchant": "m11",
+      "cents": 40000,
+      "happened_at": "2026-08-17",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r131:1",
+      "merchant": "m0",
+      "cents": 20000,
+      "happened_at": "2026-08-17",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r131:2",
+      "merchant": "m1",
+      "cents": 20000,
+      "happened_at": "2026-08-17",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j131",
+      "tickets": [
+        "t131"
+      ],
+      "receipts": [
+        "r131:0",
+        "r131:1",
+        "r131:2"
+      ],
+      "consent": "allowed",
+      "household": "h31"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r132:0",
+      "merchant": "m0",
+      "cents": 20000,
+      "happened_at": "2026-08-18",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j132",
+      "tickets": [
+        "t132",
+        "t132b"
+      ],
+      "receipts": [
+        "r132:0"
+      ],
+      "consent": "allowed",
+      "household": "h32"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r133:0",
+      "merchant": "m1",
+      "cents": 4000,
+      "happened_at": "2026-08-19",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r133:1",
+      "merchant": "m2",
+      "cents": 40000,
+      "happened_at": "2026-08-19",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j133",
+      "tickets": [
+        "t133"
+      ],
+      "receipts": [
+        "r133:0",
+        "r133:1"
+      ],
+      "consent": "allowed",
+      "household": "h33"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r134:0",
+      "merchant": "m2",
+      "cents": 8000,
+      "happened_at": "2026-08-20",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r134:1",
+      "merchant": "m3",
+      "cents": 4000,
+      "happened_at": "2026-08-20",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r134:2",
+      "merchant": "m4",
+      "cents": 4000,
+      "happened_at": "2026-08-20",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j134",
+      "tickets": [
+        "t134"
+      ],
+      "receipts": [
+        "r134:0",
+        "r134:1",
+        "r134:2"
+      ],
+      "consent": "allowed",
+      "household": "h34"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r135:0",
+      "merchant": "m3",
+      "cents": 8000,
+      "happened_at": "2026-08-21",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r136:0",
+      "merchant": "m4",
+      "cents": 8000,
+      "happened_at": "2026-08-22",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r136:1",
+      "merchant": "m5",
+      "cents": 8000,
+      "happened_at": "2026-08-22",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j136",
+      "tickets": [
+        "t136",
+        "t136b"
+      ],
+      "receipts": [
+        "r136:0",
+        "r136:1"
+      ],
+      "consent": "allowed",
+      "household": "h36"
+    }
+  ],
+  [
+    "journeys.revoke",
+    {
+      "id": "j136",
+      "happened_at": "2026-08-24"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r137:0",
+      "merchant": "m5",
+      "cents": 20000,
+      "happened_at": "2026-08-23",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r137:1",
+      "merchant": "m6",
+      "cents": 40000,
+      "happened_at": "2026-08-23",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r137:2",
+      "merchant": "m7",
+      "cents": 4000,
+      "happened_at": "2026-08-23",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j137",
+      "tickets": [
+        "t137"
+      ],
+      "receipts": [
+        "r137:0",
+        "r137:1",
+        "r137:2"
+      ],
+      "consent": "allowed",
+      "household": "h37"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r138:0",
+      "merchant": "m6",
+      "cents": 8000,
+      "happened_at": "2026-08-24",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j138",
+      "tickets": [
+        "t138"
+      ],
+      "receipts": [
+        "r138:0"
+      ],
+      "consent": "allowed",
+      "household": "h38"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r139:0",
+      "merchant": "m7",
+      "cents": 4000,
+      "happened_at": "2026-08-25",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r139:1",
+      "merchant": "m8",
+      "cents": 4000,
+      "happened_at": "2026-08-25",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr139:1",
+      "receipt": "r139:1",
+      "cents": 2000
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j139",
+      "tickets": [
+        "t139"
+      ],
+      "receipts": [
+        "r139:0",
+        "r139:1"
+      ],
+      "consent": "allowed",
+      "household": "h39"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r140:0",
+      "merchant": "m8",
+      "cents": 4000,
+      "happened_at": "2026-08-26",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r140:1",
+      "merchant": "m9",
+      "cents": 20000,
+      "happened_at": "2026-08-26",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r140:2",
+      "merchant": "m10",
+      "cents": 20000,
+      "happened_at": "2026-08-26",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r141:0",
+      "merchant": "m9",
+      "cents": 40000,
+      "happened_at": "2026-08-27",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j141",
+      "tickets": [
+        "t141"
+      ],
+      "receipts": [
+        "r141:0"
+      ],
+      "consent": "allowed",
+      "household": "h41"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r142:0",
+      "merchant": "m10",
+      "cents": 40000,
+      "happened_at": "2026-08-28",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r142:1",
+      "merchant": "m11",
+      "cents": 8000,
+      "happened_at": "2026-08-28",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j142",
+      "tickets": [
+        "t142"
+      ],
+      "receipts": [
+        "r142:0",
+        "r142:1"
+      ],
+      "consent": "allowed",
+      "household": "h42"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r143:0",
+      "merchant": "m11",
+      "cents": 20000,
+      "happened_at": "2026-08-29",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r143:1",
+      "merchant": "m0",
+      "cents": 8000,
+      "happened_at": "2026-08-29",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r143:2",
+      "merchant": "m1",
+      "cents": 40000,
+      "happened_at": "2026-08-29",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j143",
+      "tickets": [
+        "t143"
+      ],
+      "receipts": [
+        "r143:0",
+        "r143:1",
+        "r143:2"
+      ],
+      "consent": "allowed",
+      "household": "h43"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r144:0",
+      "merchant": "m0",
+      "cents": 40000,
+      "happened_at": "2026-08-30",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr144:0",
+      "receipt": "r144:0",
+      "cents": 20000
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j144",
+      "tickets": [
+        "t144",
+        "t144b"
+      ],
+      "receipts": [
+        "r144:0"
+      ],
+      "consent": "denied",
+      "household": "h44"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r145:0",
+      "merchant": "m1",
+      "cents": 20000,
+      "happened_at": "2026-08-31",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r145:1",
+      "merchant": "m2",
+      "cents": 8000,
+      "happened_at": "2026-08-31",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r146:0",
+      "merchant": "m2",
+      "cents": 20000,
+      "happened_at": "2026-09-01",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r146:1",
+      "merchant": "m3",
+      "cents": 8000,
+      "happened_at": "2026-09-01",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r146:2",
+      "merchant": "m4",
+      "cents": 8000,
+      "happened_at": "2026-09-01",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j146",
+      "tickets": [
+        "t146"
+      ],
+      "receipts": [
+        "r146:0",
+        "r146:1",
+        "r146:2"
+      ],
+      "consent": "allowed",
+      "household": "h46"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r147:0",
+      "merchant": "m3",
+      "cents": 4000,
+      "happened_at": "2026-09-02",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j147",
+      "tickets": [
+        "t147"
+      ],
+      "receipts": [
+        "r147:0"
+      ],
+      "consent": "allowed",
+      "household": "h47"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r148:0",
+      "merchant": "m4",
+      "cents": 8000,
+      "happened_at": "2026-09-03",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r148:1",
+      "merchant": "m5",
+      "cents": 20000,
+      "happened_at": "2026-09-03",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j148",
+      "tickets": [
+        "t148",
+        "t148b"
+      ],
+      "receipts": [
+        "r148:0",
+        "r148:1"
+      ],
+      "consent": "allowed",
+      "household": "h48"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r149:0",
+      "merchant": "m5",
+      "cents": 4000,
+      "happened_at": "2026-09-04",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr149:0",
+      "receipt": "r149:0",
+      "cents": 2000
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r149:1",
+      "merchant": "m6",
+      "cents": 40000,
+      "happened_at": "2026-09-04",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r149:2",
+      "merchant": "m7",
+      "cents": 20000,
+      "happened_at": "2026-09-04",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr149:2",
+      "receipt": "r149:2",
+      "cents": 10000
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j149",
+      "tickets": [
+        "t149"
+      ],
+      "receipts": [
+        "r149:0",
+        "r149:1",
+        "r149:2"
+      ],
+      "consent": "allowed",
+      "household": "h49"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r150:0",
+      "merchant": "m6",
+      "cents": 40000,
+      "happened_at": "2026-09-05",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r151:0",
+      "merchant": "m7",
+      "cents": 8000,
+      "happened_at": "2026-09-06",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r151:1",
+      "merchant": "m8",
+      "cents": 8000,
+      "happened_at": "2026-09-06",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j151",
+      "tickets": [
+        "t151"
+      ],
+      "receipts": [
+        "r151:0",
+        "r151:1"
+      ],
+      "consent": "allowed",
+      "household": "h51"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r152:0",
+      "merchant": "m8",
+      "cents": 8000,
+      "happened_at": "2026-09-07",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr152:0",
+      "receipt": "r152:0",
+      "cents": 4000
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r152:1",
+      "merchant": "m9",
+      "cents": 4000,
+      "happened_at": "2026-09-07",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r152:2",
+      "merchant": "m10",
+      "cents": 8000,
+      "happened_at": "2026-09-07",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j152",
+      "tickets": [
+        "t152",
+        "t152b"
+      ],
+      "receipts": [
+        "r152:0",
+        "r152:1",
+        "r152:2"
+      ],
+      "consent": "allowed",
+      "household": "h52"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r153:0",
+      "merchant": "m9",
+      "cents": 20000,
+      "happened_at": "2026-09-08",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j153",
+      "tickets": [
+        "t153"
+      ],
+      "receipts": [
+        "r153:0"
+      ],
+      "consent": "denied",
+      "household": "h53"
+    }
+  ],
+  [
+    "journeys.revoke",
+    {
+      "id": "j153",
+      "happened_at": "2026-09-10"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r154:0",
+      "merchant": "m10",
+      "cents": 40000,
+      "happened_at": "2026-09-09",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r154:1",
+      "merchant": "m11",
+      "cents": 40000,
+      "happened_at": "2026-09-09",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j154",
+      "tickets": [
+        "t154"
+      ],
+      "receipts": [
+        "r154:0",
+        "r154:1"
+      ],
+      "consent": "allowed",
+      "household": "h54"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r155:0",
+      "merchant": "m11",
+      "cents": 20000,
+      "happened_at": "2026-09-10",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r155:1",
+      "merchant": "m0",
+      "cents": 8000,
+      "happened_at": "2026-09-10",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r155:2",
+      "merchant": "m1",
+      "cents": 20000,
+      "happened_at": "2026-09-10",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r156:0",
+      "merchant": "m0",
+      "cents": 40000,
+      "happened_at": "2026-09-11",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j156",
+      "tickets": [
+        "t156",
+        "t156b"
+      ],
+      "receipts": [
+        "r156:0"
+      ],
+      "consent": "allowed",
+      "household": "h56"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r157:0",
+      "merchant": "m1",
+      "cents": 20000,
+      "happened_at": "2026-09-12",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r157:1",
+      "merchant": "m2",
+      "cents": 4000,
+      "happened_at": "2026-09-12",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j157",
+      "tickets": [
+        "t157"
+      ],
+      "receipts": [
+        "r157:0",
+        "r157:1"
+      ],
+      "consent": "allowed",
+      "household": "h57"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r158:0",
+      "merchant": "m2",
+      "cents": 40000,
+      "happened_at": "2026-09-13",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r158:1",
+      "merchant": "m3",
+      "cents": 4000,
+      "happened_at": "2026-09-13",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r158:2",
+      "merchant": "m4",
+      "cents": 40000,
+      "happened_at": "2026-09-13",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j158",
+      "tickets": [
+        "t158"
+      ],
+      "receipts": [
+        "r158:0",
+        "r158:1",
+        "r158:2"
+      ],
+      "consent": "allowed",
+      "household": "h58"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r159:0",
+      "merchant": "m3",
+      "cents": 40000,
+      "happened_at": "2026-09-14",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j159",
+      "tickets": [
+        "t159"
+      ],
+      "receipts": [
+        "r159:0"
+      ],
+      "consent": "allowed",
+      "household": "h59"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r160:0",
+      "merchant": "m4",
+      "cents": 20000,
+      "happened_at": "2026-09-15",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r160:1",
+      "merchant": "m5",
+      "cents": 8000,
+      "happened_at": "2026-09-15",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r161:0",
+      "merchant": "m5",
+      "cents": 40000,
+      "happened_at": "2026-09-16",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r161:1",
+      "merchant": "m6",
+      "cents": 8000,
+      "happened_at": "2026-09-16",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r161:2",
+      "merchant": "m7",
+      "cents": 8000,
+      "happened_at": "2026-09-16",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j161",
+      "tickets": [
+        "t161"
+      ],
+      "receipts": [
+        "r161:0",
+        "r161:1",
+        "r161:2"
+      ],
+      "consent": "allowed",
+      "household": "h61"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r162:0",
+      "merchant": "m6",
+      "cents": 40000,
+      "happened_at": "2026-09-17",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr162:0",
+      "receipt": "r162:0",
+      "cents": 20000
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j162",
+      "tickets": [
+        "t162"
+      ],
+      "receipts": [
+        "r162:0"
+      ],
+      "consent": "denied",
+      "household": "h62"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r163:0",
+      "merchant": "m7",
+      "cents": 4000,
+      "happened_at": "2026-09-18",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r163:1",
+      "merchant": "m8",
+      "cents": 40000,
+      "happened_at": "2026-09-18",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr163:1",
+      "receipt": "r163:1",
+      "cents": 20000
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j163",
+      "tickets": [
+        "t163"
+      ],
+      "receipts": [
+        "r163:0",
+        "r163:1"
+      ],
+      "consent": "allowed",
+      "household": "h63"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r164:0",
+      "merchant": "m8",
+      "cents": 8000,
+      "happened_at": "2026-09-19",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r164:1",
+      "merchant": "m9",
+      "cents": 20000,
+      "happened_at": "2026-09-19",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r164:2",
+      "merchant": "m10",
+      "cents": 4000,
+      "happened_at": "2026-09-19",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j164",
+      "tickets": [
+        "t164",
+        "t164b"
+      ],
+      "receipts": [
+        "r164:0",
+        "r164:1",
+        "r164:2"
+      ],
+      "consent": "allowed",
+      "household": "h64"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r165:0",
+      "merchant": "m9",
+      "cents": 4000,
+      "happened_at": "2026-09-20",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r166:0",
+      "merchant": "m10",
+      "cents": 4000,
+      "happened_at": "2026-09-21",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r166:1",
+      "merchant": "m11",
+      "cents": 8000,
+      "happened_at": "2026-09-21",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j166",
+      "tickets": [
+        "t166"
+      ],
+      "receipts": [
+        "r166:0",
+        "r166:1"
+      ],
+      "consent": "allowed",
+      "household": "h66"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r167:0",
+      "merchant": "m11",
+      "cents": 4000,
+      "happened_at": "2026-09-22",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r167:1",
+      "merchant": "m0",
+      "cents": 4000,
+      "happened_at": "2026-09-22",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r167:2",
+      "merchant": "m1",
+      "cents": 20000,
+      "happened_at": "2026-09-22",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j167",
+      "tickets": [
+        "t167"
+      ],
+      "receipts": [
+        "r167:0",
+        "r167:1",
+        "r167:2"
+      ],
+      "consent": "allowed",
+      "household": "h67"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r168:0",
+      "merchant": "m0",
+      "cents": 20000,
+      "happened_at": "2026-07-01",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j168",
+      "tickets": [
+        "t168",
+        "t168b"
+      ],
+      "receipts": [
+        "r168:0"
+      ],
+      "consent": "allowed",
+      "household": "h68"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r169:0",
+      "merchant": "m1",
+      "cents": 40000,
+      "happened_at": "2026-07-02",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r169:1",
+      "merchant": "m2",
+      "cents": 4000,
+      "happened_at": "2026-07-02",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j169",
+      "tickets": [
+        "t169"
+      ],
+      "receipts": [
+        "r169:0",
+        "r169:1"
+      ],
+      "consent": "allowed",
+      "household": "h69"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r170:0",
+      "merchant": "m2",
+      "cents": 20000,
+      "happened_at": "2026-07-03",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r170:1",
+      "merchant": "m3",
+      "cents": 4000,
+      "happened_at": "2026-07-03",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r170:2",
+      "merchant": "m4",
+      "cents": 20000,
+      "happened_at": "2026-07-03",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r171:0",
+      "merchant": "m3",
+      "cents": 20000,
+      "happened_at": "2026-07-04",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j171",
+      "tickets": [
+        "t171"
+      ],
+      "receipts": [
+        "r171:0"
+      ],
+      "consent": "denied",
+      "household": "h71"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r172:0",
+      "merchant": "m4",
+      "cents": 20000,
+      "happened_at": "2026-07-05",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r172:1",
+      "merchant": "m5",
+      "cents": 40000,
+      "happened_at": "2026-07-05",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j172",
+      "tickets": [
+        "t172",
+        "t172b"
+      ],
+      "receipts": [
+        "r172:0",
+        "r172:1"
+      ],
+      "consent": "allowed",
+      "household": "h72"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r173:0",
+      "merchant": "m5",
+      "cents": 4000,
+      "happened_at": "2026-07-06",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r173:1",
+      "merchant": "m6",
+      "cents": 40000,
+      "happened_at": "2026-07-06",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r173:2",
+      "merchant": "m7",
+      "cents": 40000,
+      "happened_at": "2026-07-06",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j173",
+      "tickets": [
+        "t173"
+      ],
+      "receipts": [
+        "r173:0",
+        "r173:1",
+        "r173:2"
+      ],
+      "consent": "allowed",
+      "household": "h73"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r174:0",
+      "merchant": "m6",
+      "cents": 40000,
+      "happened_at": "2026-07-07",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j174",
+      "tickets": [
+        "t174"
+      ],
+      "receipts": [
+        "r174:0"
+      ],
+      "consent": "allowed",
+      "household": "h74"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r175:0",
+      "merchant": "m7",
+      "cents": 4000,
+      "happened_at": "2026-07-08",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r175:1",
+      "merchant": "m8",
+      "cents": 40000,
+      "happened_at": "2026-07-08",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r176:0",
+      "merchant": "m8",
+      "cents": 4000,
+      "happened_at": "2026-07-09",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r176:1",
+      "merchant": "m9",
+      "cents": 8000,
+      "happened_at": "2026-07-09",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r176:2",
+      "merchant": "m10",
+      "cents": 4000,
+      "happened_at": "2026-07-09",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j176",
+      "tickets": [
+        "t176",
+        "t176b"
+      ],
+      "receipts": [
+        "r176:0",
+        "r176:1",
+        "r176:2"
+      ],
+      "consent": "allowed",
+      "household": "h76"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r177:0",
+      "merchant": "m9",
+      "cents": 20000,
+      "happened_at": "2026-07-10",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j177",
+      "tickets": [
+        "t177"
+      ],
+      "receipts": [
+        "r177:0"
+      ],
+      "consent": "allowed",
+      "household": "h77"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r178:0",
+      "merchant": "m10",
+      "cents": 40000,
+      "happened_at": "2026-07-11",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r178:1",
+      "merchant": "m11",
+      "cents": 4000,
+      "happened_at": "2026-07-11",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j178",
+      "tickets": [
+        "t178"
+      ],
+      "receipts": [
+        "r178:0",
+        "r178:1"
+      ],
+      "consent": "allowed",
+      "household": "h78"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r179:0",
+      "merchant": "m11",
+      "cents": 40000,
+      "happened_at": "2026-07-12",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r179:1",
+      "merchant": "m0",
+      "cents": 20000,
+      "happened_at": "2026-07-12",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r179:2",
+      "merchant": "m1",
+      "cents": 4000,
+      "happened_at": "2026-07-12",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j179",
+      "tickets": [
+        "t179"
+      ],
+      "receipts": [
+        "r179:0",
+        "r179:1",
+        "r179:2"
+      ],
+      "consent": "allowed",
+      "household": "h79"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r180:0",
+      "merchant": "m0",
+      "cents": 40000,
+      "happened_at": "2026-07-13",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr180:0",
+      "receipt": "r180:0",
+      "cents": 20000
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r181:0",
+      "merchant": "m1",
+      "cents": 8000,
+      "happened_at": "2026-07-14",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r181:1",
+      "merchant": "m2",
+      "cents": 40000,
+      "happened_at": "2026-07-14",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j181",
+      "tickets": [
+        "t181"
+      ],
+      "receipts": [
+        "r181:0",
+        "r181:1"
+      ],
+      "consent": "allowed",
+      "household": "h81"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r182:0",
+      "merchant": "m2",
+      "cents": 20000,
+      "happened_at": "2026-07-15",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r182:1",
+      "merchant": "m3",
+      "cents": 8000,
+      "happened_at": "2026-07-15",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr182:1",
+      "receipt": "r182:1",
+      "cents": 4000
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r182:2",
+      "merchant": "m4",
+      "cents": 40000,
+      "happened_at": "2026-07-15",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j182",
+      "tickets": [
+        "t182"
+      ],
+      "receipts": [
+        "r182:0",
+        "r182:1",
+        "r182:2"
+      ],
+      "consent": "allowed",
+      "household": "h82"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r183:0",
+      "merchant": "m3",
+      "cents": 8000,
+      "happened_at": "2026-07-16",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j183",
+      "tickets": [
+        "t183"
+      ],
+      "receipts": [
+        "r183:0"
+      ],
+      "consent": "allowed",
+      "household": "h83"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r184:0",
+      "merchant": "m4",
+      "cents": 8000,
+      "happened_at": "2026-07-17",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r184:1",
+      "merchant": "m5",
+      "cents": 4000,
+      "happened_at": "2026-07-17",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j184",
+      "tickets": [
+        "t184",
+        "t184b"
+      ],
+      "receipts": [
+        "r184:0",
+        "r184:1"
+      ],
+      "consent": "allowed",
+      "household": "h84"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r185:0",
+      "merchant": "m5",
+      "cents": 8000,
+      "happened_at": "2026-07-18",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r185:1",
+      "merchant": "m6",
+      "cents": 4000,
+      "happened_at": "2026-07-18",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r185:2",
+      "merchant": "m7",
+      "cents": 40000,
+      "happened_at": "2026-07-18",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r186:0",
+      "merchant": "m6",
+      "cents": 4000,
+      "happened_at": "2026-07-19",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j186",
+      "tickets": [
+        "t186"
+      ],
+      "receipts": [
+        "r186:0"
+      ],
+      "consent": "allowed",
+      "household": "h86"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r187:0",
+      "merchant": "m7",
+      "cents": 20000,
+      "happened_at": "2026-07-20",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r187:1",
+      "merchant": "m8",
+      "cents": 40000,
+      "happened_at": "2026-07-20",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j187",
+      "tickets": [
+        "t187"
+      ],
+      "receipts": [
+        "r187:0",
+        "r187:1"
+      ],
+      "consent": "allowed",
+      "household": "h87"
+    }
+  ],
+  [
+    "journeys.revoke",
+    {
+      "id": "j187",
+      "happened_at": "2026-07-22"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r188:0",
+      "merchant": "m8",
+      "cents": 20000,
+      "happened_at": "2026-07-21",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r188:1",
+      "merchant": "m9",
+      "cents": 8000,
+      "happened_at": "2026-07-21",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r188:2",
+      "merchant": "m10",
+      "cents": 8000,
+      "happened_at": "2026-07-21",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j188",
+      "tickets": [
+        "t188",
+        "t188b"
+      ],
+      "receipts": [
+        "r188:0",
+        "r188:1",
+        "r188:2"
+      ],
+      "consent": "allowed",
+      "household": "h88"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r189:0",
+      "merchant": "m9",
+      "cents": 40000,
+      "happened_at": "2026-07-22",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j189",
+      "tickets": [
+        "t189"
+      ],
+      "receipts": [
+        "r189:0"
+      ],
+      "consent": "denied",
+      "household": "h89"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r190:0",
+      "merchant": "m10",
+      "cents": 20000,
+      "happened_at": "2026-07-23",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r190:1",
+      "merchant": "m11",
+      "cents": 8000,
+      "happened_at": "2026-07-23",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r191:0",
+      "merchant": "m11",
+      "cents": 40000,
+      "happened_at": "2026-07-24",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r191:1",
+      "merchant": "m0",
+      "cents": 4000,
+      "happened_at": "2026-07-24",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r191:2",
+      "merchant": "m1",
+      "cents": 20000,
+      "happened_at": "2026-07-24",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j191",
+      "tickets": [
+        "t191"
+      ],
+      "receipts": [
+        "r191:0",
+        "r191:1",
+        "r191:2"
+      ],
+      "consent": "allowed",
+      "household": "h91"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r192:0",
+      "merchant": "m0",
+      "cents": 8000,
+      "happened_at": "2026-07-25",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j192",
+      "tickets": [
+        "t192",
+        "t192b"
+      ],
+      "receipts": [
+        "r192:0"
+      ],
+      "consent": "allowed",
+      "household": "h92"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r193:0",
+      "merchant": "m1",
+      "cents": 40000,
+      "happened_at": "2026-07-26",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r193:1",
+      "merchant": "m2",
+      "cents": 40000,
+      "happened_at": "2026-07-26",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr193:1",
+      "receipt": "r193:1",
+      "cents": 20000
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j193",
+      "tickets": [
+        "t193"
+      ],
+      "receipts": [
+        "r193:0",
+        "r193:1"
+      ],
+      "consent": "allowed",
+      "household": "h93"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r194:0",
+      "merchant": "m2",
+      "cents": 20000,
+      "happened_at": "2026-07-27",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r194:1",
+      "merchant": "m3",
+      "cents": 4000,
+      "happened_at": "2026-07-27",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r194:2",
+      "merchant": "m4",
+      "cents": 40000,
+      "happened_at": "2026-07-27",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j194",
+      "tickets": [
+        "t194"
+      ],
+      "receipts": [
+        "r194:0",
+        "r194:1",
+        "r194:2"
+      ],
+      "consent": "allowed",
+      "household": "h94"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r195:0",
+      "merchant": "m3",
+      "cents": 4000,
+      "happened_at": "2026-07-28",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r196:0",
+      "merchant": "m4",
+      "cents": 8000,
+      "happened_at": "2026-07-29",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r196:1",
+      "merchant": "m5",
+      "cents": 4000,
+      "happened_at": "2026-07-29",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j196",
+      "tickets": [
+        "t196",
+        "t196b"
+      ],
+      "receipts": [
+        "r196:0",
+        "r196:1"
+      ],
+      "consent": "allowed",
+      "household": "h96"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r197:0",
+      "merchant": "m5",
+      "cents": 4000,
+      "happened_at": "2026-07-30",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r197:1",
+      "merchant": "m6",
+      "cents": 40000,
+      "happened_at": "2026-07-30",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r197:2",
+      "merchant": "m7",
+      "cents": 8000,
+      "happened_at": "2026-07-30",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j197",
+      "tickets": [
+        "t197"
+      ],
+      "receipts": [
+        "r197:0",
+        "r197:1",
+        "r197:2"
+      ],
+      "consent": "allowed",
+      "household": "h97"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r198:0",
+      "merchant": "m6",
+      "cents": 8000,
+      "happened_at": "2026-07-31",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j198",
+      "tickets": [
+        "t198"
+      ],
+      "receipts": [
+        "r198:0"
+      ],
+      "consent": "denied",
+      "household": "h98"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r199:0",
+      "merchant": "m7",
+      "cents": 20000,
+      "happened_at": "2026-08-01",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r199:1",
+      "merchant": "m8",
+      "cents": 20000,
+      "happened_at": "2026-08-01",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j199",
+      "tickets": [
+        "t199"
+      ],
+      "receipts": [
+        "r199:0",
+        "r199:1"
+      ],
+      "consent": "allowed",
+      "household": "h99"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r200:0",
+      "merchant": "m8",
+      "cents": 40000,
+      "happened_at": "2026-08-02",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r200:1",
+      "merchant": "m9",
+      "cents": 40000,
+      "happened_at": "2026-08-02",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r200:2",
+      "merchant": "m10",
+      "cents": 4000,
+      "happened_at": "2026-08-02",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r201:0",
+      "merchant": "m9",
+      "cents": 4000,
+      "happened_at": "2026-08-03",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j201",
+      "tickets": [
+        "t201"
+      ],
+      "receipts": [
+        "r201:0"
+      ],
+      "consent": "allowed",
+      "household": "h1"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r202:0",
+      "merchant": "m10",
+      "cents": 20000,
+      "happened_at": "2026-08-04",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r202:1",
+      "merchant": "m11",
+      "cents": 20000,
+      "happened_at": "2026-08-04",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j202",
+      "tickets": [
+        "t202"
+      ],
+      "receipts": [
+        "r202:0",
+        "r202:1"
+      ],
+      "consent": "allowed",
+      "household": "h2"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r203:0",
+      "merchant": "m11",
+      "cents": 4000,
+      "happened_at": "2026-08-05",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r203:1",
+      "merchant": "m0",
+      "cents": 8000,
+      "happened_at": "2026-08-05",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r203:2",
+      "merchant": "m1",
+      "cents": 20000,
+      "happened_at": "2026-08-05",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j203",
+      "tickets": [
+        "t203"
+      ],
+      "receipts": [
+        "r203:0",
+        "r203:1",
+        "r203:2"
+      ],
+      "consent": "allowed",
+      "household": "h3"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r204:0",
+      "merchant": "m0",
+      "cents": 4000,
+      "happened_at": "2026-08-06",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j204",
+      "tickets": [
+        "t204",
+        "t204b"
+      ],
+      "receipts": [
+        "r204:0"
+      ],
+      "consent": "allowed",
+      "household": "h4"
+    }
+  ],
+  [
+    "journeys.revoke",
+    {
+      "id": "j204",
+      "happened_at": "2026-08-08"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r205:0",
+      "merchant": "m1",
+      "cents": 40000,
+      "happened_at": "2026-08-07",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r205:1",
+      "merchant": "m2",
+      "cents": 40000,
+      "happened_at": "2026-08-07",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r206:0",
+      "merchant": "m2",
+      "cents": 8000,
+      "happened_at": "2026-08-08",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r206:1",
+      "merchant": "m3",
+      "cents": 4000,
+      "happened_at": "2026-08-08",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r206:2",
+      "merchant": "m4",
+      "cents": 40000,
+      "happened_at": "2026-08-08",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j206",
+      "tickets": [
+        "t206"
+      ],
+      "receipts": [
+        "r206:0",
+        "r206:1",
+        "r206:2"
+      ],
+      "consent": "allowed",
+      "household": "h6"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r207:0",
+      "merchant": "m3",
+      "cents": 4000,
+      "happened_at": "2026-08-09",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j207",
+      "tickets": [
+        "t207"
+      ],
+      "receipts": [
+        "r207:0"
+      ],
+      "consent": "denied",
+      "household": "h7"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r208:0",
+      "merchant": "m4",
+      "cents": 4000,
+      "happened_at": "2026-08-10",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r208:1",
+      "merchant": "m5",
+      "cents": 40000,
+      "happened_at": "2026-08-10",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j208",
+      "tickets": [
+        "t208",
+        "t208b"
+      ],
+      "receipts": [
+        "r208:0",
+        "r208:1"
+      ],
+      "consent": "allowed",
+      "household": "h8"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r209:0",
+      "merchant": "m5",
+      "cents": 40000,
+      "happened_at": "2026-08-11",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r209:1",
+      "merchant": "m6",
+      "cents": 4000,
+      "happened_at": "2026-08-11",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r209:2",
+      "merchant": "m7",
+      "cents": 4000,
+      "happened_at": "2026-08-11",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j209",
+      "tickets": [
+        "t209"
+      ],
+      "receipts": [
+        "r209:0",
+        "r209:1",
+        "r209:2"
+      ],
+      "consent": "allowed",
+      "household": "h9"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r210:0",
+      "merchant": "m6",
+      "cents": 20000,
+      "happened_at": "2026-08-12",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r211:0",
+      "merchant": "m7",
+      "cents": 40000,
+      "happened_at": "2026-08-13",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r211:1",
+      "merchant": "m8",
+      "cents": 4000,
+      "happened_at": "2026-08-13",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j211",
+      "tickets": [
+        "t211"
+      ],
+      "receipts": [
+        "r211:0",
+        "r211:1"
+      ],
+      "consent": "allowed",
+      "household": "h11"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r212:0",
+      "merchant": "m8",
+      "cents": 20000,
+      "happened_at": "2026-08-14",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r212:1",
+      "merchant": "m9",
+      "cents": 40000,
+      "happened_at": "2026-08-14",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r212:2",
+      "merchant": "m10",
+      "cents": 8000,
+      "happened_at": "2026-08-14",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j212",
+      "tickets": [
+        "t212",
+        "t212b"
+      ],
+      "receipts": [
+        "r212:0",
+        "r212:1",
+        "r212:2"
+      ],
+      "consent": "allowed",
+      "household": "h12"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r213:0",
+      "merchant": "m9",
+      "cents": 8000,
+      "happened_at": "2026-08-15",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j213",
+      "tickets": [
+        "t213"
+      ],
+      "receipts": [
+        "r213:0"
+      ],
+      "consent": "allowed",
+      "household": "h13"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r214:0",
+      "merchant": "m10",
+      "cents": 8000,
+      "happened_at": "2026-08-16",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r214:1",
+      "merchant": "m11",
+      "cents": 8000,
+      "happened_at": "2026-08-16",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j214",
+      "tickets": [
+        "t214"
+      ],
+      "receipts": [
+        "r214:0",
+        "r214:1"
+      ],
+      "consent": "allowed",
+      "household": "h14"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r215:0",
+      "merchant": "m11",
+      "cents": 4000,
+      "happened_at": "2026-08-17",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r215:1",
+      "merchant": "m0",
+      "cents": 20000,
+      "happened_at": "2026-08-17",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r215:2",
+      "merchant": "m1",
+      "cents": 4000,
+      "happened_at": "2026-08-17",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r216:0",
+      "merchant": "m0",
+      "cents": 40000,
+      "happened_at": "2026-08-18",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j216",
+      "tickets": [
+        "t216",
+        "t216b"
+      ],
+      "receipts": [
+        "r216:0"
+      ],
+      "consent": "denied",
+      "household": "h16"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r217:0",
+      "merchant": "m1",
+      "cents": 40000,
+      "happened_at": "2026-08-19",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r217:1",
+      "merchant": "m2",
+      "cents": 40000,
+      "happened_at": "2026-08-19",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j217",
+      "tickets": [
+        "t217"
+      ],
+      "receipts": [
+        "r217:0",
+        "r217:1"
+      ],
+      "consent": "allowed",
+      "household": "h17"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r218:0",
+      "merchant": "m2",
+      "cents": 40000,
+      "happened_at": "2026-08-20",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r218:1",
+      "merchant": "m3",
+      "cents": 40000,
+      "happened_at": "2026-08-20",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r218:2",
+      "merchant": "m4",
+      "cents": 4000,
+      "happened_at": "2026-08-20",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j218",
+      "tickets": [
+        "t218"
+      ],
+      "receipts": [
+        "r218:0",
+        "r218:1",
+        "r218:2"
+      ],
+      "consent": "allowed",
+      "household": "h18"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r219:0",
+      "merchant": "m3",
+      "cents": 20000,
+      "happened_at": "2026-08-21",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j219",
+      "tickets": [
+        "t219"
+      ],
+      "receipts": [
+        "r219:0"
+      ],
+      "consent": "allowed",
+      "household": "h19"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r220:0",
+      "merchant": "m4",
+      "cents": 40000,
+      "happened_at": "2026-08-22",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r220:1",
+      "merchant": "m5",
+      "cents": 20000,
+      "happened_at": "2026-08-22",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r221:0",
+      "merchant": "m5",
+      "cents": 20000,
+      "happened_at": "2026-08-23",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r221:1",
+      "merchant": "m6",
+      "cents": 4000,
+      "happened_at": "2026-08-23",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r221:2",
+      "merchant": "m7",
+      "cents": 40000,
+      "happened_at": "2026-08-23",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j221",
+      "tickets": [
+        "t221"
+      ],
+      "receipts": [
+        "r221:0",
+        "r221:1",
+        "r221:2"
+      ],
+      "consent": "allowed",
+      "household": "h21"
+    }
+  ],
+  [
+    "journeys.revoke",
+    {
+      "id": "j221",
+      "happened_at": "2026-08-25"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r222:0",
+      "merchant": "m6",
+      "cents": 8000,
+      "happened_at": "2026-08-24",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j222",
+      "tickets": [
+        "t222"
+      ],
+      "receipts": [
+        "r222:0"
+      ],
+      "consent": "allowed",
+      "household": "h22"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r223:0",
+      "merchant": "m7",
+      "cents": 40000,
+      "happened_at": "2026-08-25",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r223:1",
+      "merchant": "m8",
+      "cents": 40000,
+      "happened_at": "2026-08-25",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j223",
+      "tickets": [
+        "t223"
+      ],
+      "receipts": [
+        "r223:0",
+        "r223:1"
+      ],
+      "consent": "allowed",
+      "household": "h23"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r224:0",
+      "merchant": "m8",
+      "cents": 4000,
+      "happened_at": "2026-08-26",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r224:1",
+      "merchant": "m9",
+      "cents": 20000,
+      "happened_at": "2026-08-26",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r224:2",
+      "merchant": "m10",
+      "cents": 20000,
+      "happened_at": "2026-08-26",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j224",
+      "tickets": [
+        "t224",
+        "t224b"
+      ],
+      "receipts": [
+        "r224:0",
+        "r224:1",
+        "r224:2"
+      ],
+      "consent": "allowed",
+      "household": "h24"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r225:0",
+      "merchant": "m9",
+      "cents": 20000,
+      "happened_at": "2026-08-27",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r226:0",
+      "merchant": "m10",
+      "cents": 20000,
+      "happened_at": "2026-08-28",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r226:1",
+      "merchant": "m11",
+      "cents": 40000,
+      "happened_at": "2026-08-28",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j226",
+      "tickets": [
+        "t226"
+      ],
+      "receipts": [
+        "r226:0",
+        "r226:1"
+      ],
+      "consent": "allowed",
+      "household": "h26"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r227:0",
+      "merchant": "m11",
+      "cents": 40000,
+      "happened_at": "2026-08-29",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r227:1",
+      "merchant": "m0",
+      "cents": 4000,
+      "happened_at": "2026-08-29",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r227:2",
+      "merchant": "m1",
+      "cents": 8000,
+      "happened_at": "2026-08-29",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr227:2",
+      "receipt": "r227:2",
+      "cents": 4000
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j227",
+      "tickets": [
+        "t227"
+      ],
+      "receipts": [
+        "r227:0",
+        "r227:1",
+        "r227:2"
+      ],
+      "consent": "allowed",
+      "household": "h27"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r228:0",
+      "merchant": "m0",
+      "cents": 40000,
+      "happened_at": "2026-08-30",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j228",
+      "tickets": [
+        "t228",
+        "t228b"
+      ],
+      "receipts": [
+        "r228:0"
+      ],
+      "consent": "allowed",
+      "household": "h28"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r229:0",
+      "merchant": "m1",
+      "cents": 20000,
+      "happened_at": "2026-08-31",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r229:1",
+      "merchant": "m2",
+      "cents": 40000,
+      "happened_at": "2026-08-31",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j229",
+      "tickets": [
+        "t229"
+      ],
+      "receipts": [
+        "r229:0",
+        "r229:1"
+      ],
+      "consent": "allowed",
+      "household": "h29"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r230:0",
+      "merchant": "m2",
+      "cents": 4000,
+      "happened_at": "2026-09-01",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r230:1",
+      "merchant": "m3",
+      "cents": 40000,
+      "happened_at": "2026-09-01",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r230:2",
+      "merchant": "m4",
+      "cents": 40000,
+      "happened_at": "2026-09-01",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r231:0",
+      "merchant": "m3",
+      "cents": 4000,
+      "happened_at": "2026-09-02",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j231",
+      "tickets": [
+        "t231"
+      ],
+      "receipts": [
+        "r231:0"
+      ],
+      "consent": "allowed",
+      "household": "h31"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r232:0",
+      "merchant": "m4",
+      "cents": 40000,
+      "happened_at": "2026-09-03",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r232:1",
+      "merchant": "m5",
+      "cents": 4000,
+      "happened_at": "2026-09-03",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j232",
+      "tickets": [
+        "t232",
+        "t232b"
+      ],
+      "receipts": [
+        "r232:0",
+        "r232:1"
+      ],
+      "consent": "allowed",
+      "household": "h32"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r233:0",
+      "merchant": "m5",
+      "cents": 4000,
+      "happened_at": "2026-09-04",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r233:1",
+      "merchant": "m6",
+      "cents": 4000,
+      "happened_at": "2026-09-04",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r233:2",
+      "merchant": "m7",
+      "cents": 40000,
+      "happened_at": "2026-09-04",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j233",
+      "tickets": [
+        "t233"
+      ],
+      "receipts": [
+        "r233:0",
+        "r233:1",
+        "r233:2"
+      ],
+      "consent": "allowed",
+      "household": "h33"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r234:0",
+      "merchant": "m6",
+      "cents": 40000,
+      "happened_at": "2026-09-05",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j234",
+      "tickets": [
+        "t234"
+      ],
+      "receipts": [
+        "r234:0"
+      ],
+      "consent": "denied",
+      "household": "h34"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r235:0",
+      "merchant": "m7",
+      "cents": 20000,
+      "happened_at": "2026-09-06",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r235:1",
+      "merchant": "m8",
+      "cents": 20000,
+      "happened_at": "2026-09-06",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr235:1",
+      "receipt": "r235:1",
+      "cents": 10000
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r236:0",
+      "merchant": "m8",
+      "cents": 4000,
+      "happened_at": "2026-09-07",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r236:1",
+      "merchant": "m9",
+      "cents": 20000,
+      "happened_at": "2026-09-07",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r236:2",
+      "merchant": "m10",
+      "cents": 8000,
+      "happened_at": "2026-09-07",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j236",
+      "tickets": [
+        "t236",
+        "t236b"
+      ],
+      "receipts": [
+        "r236:0",
+        "r236:1",
+        "r236:2"
+      ],
+      "consent": "allowed",
+      "household": "h36"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r237:0",
+      "merchant": "m9",
+      "cents": 40000,
+      "happened_at": "2026-09-08",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j237",
+      "tickets": [
+        "t237"
+      ],
+      "receipts": [
+        "r237:0"
+      ],
+      "consent": "allowed",
+      "household": "h37"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r238:0",
+      "merchant": "m10",
+      "cents": 8000,
+      "happened_at": "2026-09-09",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r238:1",
+      "merchant": "m11",
+      "cents": 20000,
+      "happened_at": "2026-09-09",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j238",
+      "tickets": [
+        "t238"
+      ],
+      "receipts": [
+        "r238:0",
+        "r238:1"
+      ],
+      "consent": "allowed",
+      "household": "h38"
+    }
+  ],
+  [
+    "journeys.revoke",
+    {
+      "id": "j238",
+      "happened_at": "2026-09-11"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r239:0",
+      "merchant": "m11",
+      "cents": 4000,
+      "happened_at": "2026-09-10",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r239:1",
+      "merchant": "m0",
+      "cents": 40000,
+      "happened_at": "2026-09-10",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r239:2",
+      "merchant": "m1",
+      "cents": 4000,
+      "happened_at": "2026-09-10",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j239",
+      "tickets": [
+        "t239"
+      ],
+      "receipts": [
+        "r239:0",
+        "r239:1",
+        "r239:2"
+      ],
+      "consent": "allowed",
+      "household": "h39"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r240:0",
+      "merchant": "m0",
+      "cents": 40000,
+      "happened_at": "2026-09-11",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r241:0",
+      "merchant": "m1",
+      "cents": 40000,
+      "happened_at": "2026-09-12",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r241:1",
+      "merchant": "m2",
+      "cents": 40000,
+      "happened_at": "2026-09-12",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j241",
+      "tickets": [
+        "t241"
+      ],
+      "receipts": [
+        "r241:0",
+        "r241:1"
+      ],
+      "consent": "allowed",
+      "household": "h41"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r242:0",
+      "merchant": "m2",
+      "cents": 4000,
+      "happened_at": "2026-09-13",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r242:1",
+      "merchant": "m3",
+      "cents": 20000,
+      "happened_at": "2026-09-13",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r242:2",
+      "merchant": "m4",
+      "cents": 40000,
+      "happened_at": "2026-09-13",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j242",
+      "tickets": [
+        "t242"
+      ],
+      "receipts": [
+        "r242:0",
+        "r242:1",
+        "r242:2"
+      ],
+      "consent": "allowed",
+      "household": "h42"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r243:0",
+      "merchant": "m3",
+      "cents": 20000,
+      "happened_at": "2026-09-14",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr243:0",
+      "receipt": "r243:0",
+      "cents": 10000
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j243",
+      "tickets": [
+        "t243"
+      ],
+      "receipts": [
+        "r243:0"
+      ],
+      "consent": "denied",
+      "household": "h43"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r244:0",
+      "merchant": "m4",
+      "cents": 4000,
+      "happened_at": "2026-09-15",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r244:1",
+      "merchant": "m5",
+      "cents": 4000,
+      "happened_at": "2026-09-15",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j244",
+      "tickets": [
+        "t244",
+        "t244b"
+      ],
+      "receipts": [
+        "r244:0",
+        "r244:1"
+      ],
+      "consent": "allowed",
+      "household": "h44"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r245:0",
+      "merchant": "m5",
+      "cents": 40000,
+      "happened_at": "2026-09-16",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r245:1",
+      "merchant": "m6",
+      "cents": 8000,
+      "happened_at": "2026-09-16",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r245:2",
+      "merchant": "m7",
+      "cents": 8000,
+      "happened_at": "2026-09-16",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r246:0",
+      "merchant": "m6",
+      "cents": 40000,
+      "happened_at": "2026-09-17",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j246",
+      "tickets": [
+        "t246"
+      ],
+      "receipts": [
+        "r246:0"
+      ],
+      "consent": "allowed",
+      "household": "h46"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r247:0",
+      "merchant": "m7",
+      "cents": 4000,
+      "happened_at": "2026-09-18",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r247:1",
+      "merchant": "m8",
+      "cents": 40000,
+      "happened_at": "2026-09-18",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j247",
+      "tickets": [
+        "t247"
+      ],
+      "receipts": [
+        "r247:0",
+        "r247:1"
+      ],
+      "consent": "allowed",
+      "household": "h47"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r248:0",
+      "merchant": "m8",
+      "cents": 40000,
+      "happened_at": "2026-09-19",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r248:1",
+      "merchant": "m9",
+      "cents": 20000,
+      "happened_at": "2026-09-19",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r248:2",
+      "merchant": "m10",
+      "cents": 4000,
+      "happened_at": "2026-09-19",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j248",
+      "tickets": [
+        "t248",
+        "t248b"
+      ],
+      "receipts": [
+        "r248:0",
+        "r248:1",
+        "r248:2"
+      ],
+      "consent": "allowed",
+      "household": "h48"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r249:0",
+      "merchant": "m9",
+      "cents": 8000,
+      "happened_at": "2026-09-20",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j249",
+      "tickets": [
+        "t249"
+      ],
+      "receipts": [
+        "r249:0"
+      ],
+      "consent": "allowed",
+      "household": "h49"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r250:0",
+      "merchant": "m10",
+      "cents": 4000,
+      "happened_at": "2026-09-21",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r250:1",
+      "merchant": "m11",
+      "cents": 8000,
+      "happened_at": "2026-09-21",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r251:0",
+      "merchant": "m11",
+      "cents": 40000,
+      "happened_at": "2026-09-22",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r251:1",
+      "merchant": "m0",
+      "cents": 20000,
+      "happened_at": "2026-09-22",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r251:2",
+      "merchant": "m1",
+      "cents": 40000,
+      "happened_at": "2026-09-22",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j251",
+      "tickets": [
+        "t251"
+      ],
+      "receipts": [
+        "r251:0",
+        "r251:1",
+        "r251:2"
+      ],
+      "consent": "allowed",
+      "household": "h51"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r252:0",
+      "merchant": "m0",
+      "cents": 40000,
+      "happened_at": "2026-07-01",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j252",
+      "tickets": [
+        "t252",
+        "t252b"
+      ],
+      "receipts": [
+        "r252:0"
+      ],
+      "consent": "denied",
+      "household": "h52"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r253:0",
+      "merchant": "m1",
+      "cents": 4000,
+      "happened_at": "2026-07-02",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r253:1",
+      "merchant": "m2",
+      "cents": 40000,
+      "happened_at": "2026-07-02",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j253",
+      "tickets": [
+        "t253"
+      ],
+      "receipts": [
+        "r253:0",
+        "r253:1"
+      ],
+      "consent": "allowed",
+      "household": "h53"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r254:0",
+      "merchant": "m2",
+      "cents": 8000,
+      "happened_at": "2026-07-03",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r254:1",
+      "merchant": "m3",
+      "cents": 8000,
+      "happened_at": "2026-07-03",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r254:2",
+      "merchant": "m4",
+      "cents": 40000,
+      "happened_at": "2026-07-03",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j254",
+      "tickets": [
+        "t254"
+      ],
+      "receipts": [
+        "r254:0",
+        "r254:1",
+        "r254:2"
+      ],
+      "consent": "allowed",
+      "household": "h54"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r255:0",
+      "merchant": "m3",
+      "cents": 8000,
+      "happened_at": "2026-07-04",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r256:0",
+      "merchant": "m4",
+      "cents": 4000,
+      "happened_at": "2026-07-05",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r256:1",
+      "merchant": "m5",
+      "cents": 40000,
+      "happened_at": "2026-07-05",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j256",
+      "tickets": [
+        "t256",
+        "t256b"
+      ],
+      "receipts": [
+        "r256:0",
+        "r256:1"
+      ],
+      "consent": "allowed",
+      "household": "h56"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r257:0",
+      "merchant": "m5",
+      "cents": 8000,
+      "happened_at": "2026-07-06",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r257:1",
+      "merchant": "m6",
+      "cents": 4000,
+      "happened_at": "2026-07-06",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r257:2",
+      "merchant": "m7",
+      "cents": 40000,
+      "happened_at": "2026-07-06",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j257",
+      "tickets": [
+        "t257"
+      ],
+      "receipts": [
+        "r257:0",
+        "r257:1",
+        "r257:2"
+      ],
+      "consent": "allowed",
+      "household": "h57"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r258:0",
+      "merchant": "m6",
+      "cents": 40000,
+      "happened_at": "2026-07-07",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j258",
+      "tickets": [
+        "t258"
+      ],
+      "receipts": [
+        "r258:0"
+      ],
+      "consent": "allowed",
+      "household": "h58"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r259:0",
+      "merchant": "m7",
+      "cents": 4000,
+      "happened_at": "2026-07-08",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r259:1",
+      "merchant": "m8",
+      "cents": 20000,
+      "happened_at": "2026-07-08",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j259",
+      "tickets": [
+        "t259"
+      ],
+      "receipts": [
+        "r259:0",
+        "r259:1"
+      ],
+      "consent": "allowed",
+      "household": "h59"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r260:0",
+      "merchant": "m8",
+      "cents": 8000,
+      "happened_at": "2026-07-09",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r260:1",
+      "merchant": "m9",
+      "cents": 4000,
+      "happened_at": "2026-07-09",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r260:2",
+      "merchant": "m10",
+      "cents": 8000,
+      "happened_at": "2026-07-09",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r261:0",
+      "merchant": "m9",
+      "cents": 20000,
+      "happened_at": "2026-07-10",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j261",
+      "tickets": [
+        "t261"
+      ],
+      "receipts": [
+        "r261:0"
+      ],
+      "consent": "denied",
+      "household": "h61"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r262:0",
+      "merchant": "m10",
+      "cents": 20000,
+      "happened_at": "2026-07-11",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r262:1",
+      "merchant": "m11",
+      "cents": 8000,
+      "happened_at": "2026-07-11",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j262",
+      "tickets": [
+        "t262"
+      ],
+      "receipts": [
+        "r262:0",
+        "r262:1"
+      ],
+      "consent": "allowed",
+      "household": "h62"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r263:0",
+      "merchant": "m11",
+      "cents": 4000,
+      "happened_at": "2026-07-12",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r263:1",
+      "merchant": "m0",
+      "cents": 8000,
+      "happened_at": "2026-07-12",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r263:2",
+      "merchant": "m1",
+      "cents": 20000,
+      "happened_at": "2026-07-12",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr263:2",
+      "receipt": "r263:2",
+      "cents": 10000
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j263",
+      "tickets": [
+        "t263"
+      ],
+      "receipts": [
+        "r263:0",
+        "r263:1",
+        "r263:2"
+      ],
+      "consent": "allowed",
+      "household": "h63"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r264:0",
+      "merchant": "m0",
+      "cents": 20000,
+      "happened_at": "2026-07-13",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j264",
+      "tickets": [
+        "t264",
+        "t264b"
+      ],
+      "receipts": [
+        "r264:0"
+      ],
+      "consent": "allowed",
+      "household": "h64"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r265:0",
+      "merchant": "m1",
+      "cents": 20000,
+      "happened_at": "2026-07-14",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r265:1",
+      "merchant": "m2",
+      "cents": 4000,
+      "happened_at": "2026-07-14",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r266:0",
+      "merchant": "m2",
+      "cents": 4000,
+      "happened_at": "2026-07-15",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r266:1",
+      "merchant": "m3",
+      "cents": 8000,
+      "happened_at": "2026-07-15",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr266:1",
+      "receipt": "r266:1",
+      "cents": 4000
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r266:2",
+      "merchant": "m4",
+      "cents": 20000,
+      "happened_at": "2026-07-15",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j266",
+      "tickets": [
+        "t266"
+      ],
+      "receipts": [
+        "r266:0",
+        "r266:1",
+        "r266:2"
+      ],
+      "consent": "allowed",
+      "household": "h66"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r267:0",
+      "merchant": "m3",
+      "cents": 40000,
+      "happened_at": "2026-07-16",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j267",
+      "tickets": [
+        "t267"
+      ],
+      "receipts": [
+        "r267:0"
+      ],
+      "consent": "allowed",
+      "household": "h67"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r268:0",
+      "merchant": "m4",
+      "cents": 8000,
+      "happened_at": "2026-07-17",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r268:1",
+      "merchant": "m5",
+      "cents": 8000,
+      "happened_at": "2026-07-17",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j268",
+      "tickets": [
+        "t268",
+        "t268b"
+      ],
+      "receipts": [
+        "r268:0",
+        "r268:1"
+      ],
+      "consent": "allowed",
+      "household": "h68"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r269:0",
+      "merchant": "m5",
+      "cents": 20000,
+      "happened_at": "2026-07-18",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r269:1",
+      "merchant": "m6",
+      "cents": 4000,
+      "happened_at": "2026-07-18",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r269:2",
+      "merchant": "m7",
+      "cents": 40000,
+      "happened_at": "2026-07-18",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j269",
+      "tickets": [
+        "t269"
+      ],
+      "receipts": [
+        "r269:0",
+        "r269:1",
+        "r269:2"
+      ],
+      "consent": "allowed",
+      "household": "h69"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r270:0",
+      "merchant": "m6",
+      "cents": 8000,
+      "happened_at": "2026-07-19",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r271:0",
+      "merchant": "m7",
+      "cents": 40000,
+      "happened_at": "2026-07-20",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r271:1",
+      "merchant": "m8",
+      "cents": 20000,
+      "happened_at": "2026-07-20",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j271",
+      "tickets": [
+        "t271"
+      ],
+      "receipts": [
+        "r271:0",
+        "r271:1"
+      ],
+      "consent": "allowed",
+      "household": "h71"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r272:0",
+      "merchant": "m8",
+      "cents": 40000,
+      "happened_at": "2026-07-21",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r272:1",
+      "merchant": "m9",
+      "cents": 4000,
+      "happened_at": "2026-07-21",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r272:2",
+      "merchant": "m10",
+      "cents": 8000,
+      "happened_at": "2026-07-21",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j272",
+      "tickets": [
+        "t272",
+        "t272b"
+      ],
+      "receipts": [
+        "r272:0",
+        "r272:1",
+        "r272:2"
+      ],
+      "consent": "allowed",
+      "household": "h72"
+    }
+  ],
+  [
+    "journeys.revoke",
+    {
+      "id": "j272",
+      "happened_at": "2026-07-23"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r273:0",
+      "merchant": "m9",
+      "cents": 8000,
+      "happened_at": "2026-07-22",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j273",
+      "tickets": [
+        "t273"
+      ],
+      "receipts": [
+        "r273:0"
+      ],
+      "consent": "allowed",
+      "household": "h73"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r274:0",
+      "merchant": "m10",
+      "cents": 40000,
+      "happened_at": "2026-07-23",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r274:1",
+      "merchant": "m11",
+      "cents": 40000,
+      "happened_at": "2026-07-23",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j274",
+      "tickets": [
+        "t274"
+      ],
+      "receipts": [
+        "r274:0",
+        "r274:1"
+      ],
+      "consent": "allowed",
+      "household": "h74"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r275:0",
+      "merchant": "m11",
+      "cents": 40000,
+      "happened_at": "2026-07-24",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r275:1",
+      "merchant": "m0",
+      "cents": 20000,
+      "happened_at": "2026-07-24",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r275:2",
+      "merchant": "m1",
+      "cents": 4000,
+      "happened_at": "2026-07-24",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r276:0",
+      "merchant": "m0",
+      "cents": 8000,
+      "happened_at": "2026-07-25",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j276",
+      "tickets": [
+        "t276",
+        "t276b"
+      ],
+      "receipts": [
+        "r276:0"
+      ],
+      "consent": "allowed",
+      "household": "h76"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r277:0",
+      "merchant": "m1",
+      "cents": 4000,
+      "happened_at": "2026-07-26",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r277:1",
+      "merchant": "m2",
+      "cents": 4000,
+      "happened_at": "2026-07-26",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr277:1",
+      "receipt": "r277:1",
+      "cents": 2000
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j277",
+      "tickets": [
+        "t277"
+      ],
+      "receipts": [
+        "r277:0",
+        "r277:1"
+      ],
+      "consent": "allowed",
+      "household": "h77"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r278:0",
+      "merchant": "m2",
+      "cents": 8000,
+      "happened_at": "2026-07-27",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r278:1",
+      "merchant": "m3",
+      "cents": 8000,
+      "happened_at": "2026-07-27",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r278:2",
+      "merchant": "m4",
+      "cents": 40000,
+      "happened_at": "2026-07-27",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j278",
+      "tickets": [
+        "t278"
+      ],
+      "receipts": [
+        "r278:0",
+        "r278:1",
+        "r278:2"
+      ],
+      "consent": "allowed",
+      "household": "h78"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r279:0",
+      "merchant": "m3",
+      "cents": 8000,
+      "happened_at": "2026-07-28",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr279:0",
+      "receipt": "r279:0",
+      "cents": 4000
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j279",
+      "tickets": [
+        "t279"
+      ],
+      "receipts": [
+        "r279:0"
+      ],
+      "consent": "denied",
+      "household": "h79"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r280:0",
+      "merchant": "m4",
+      "cents": 20000,
+      "happened_at": "2026-07-29",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r280:1",
+      "merchant": "m5",
+      "cents": 40000,
+      "happened_at": "2026-07-29",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r281:0",
+      "merchant": "m5",
+      "cents": 4000,
+      "happened_at": "2026-07-30",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r281:1",
+      "merchant": "m6",
+      "cents": 4000,
+      "happened_at": "2026-07-30",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r281:2",
+      "merchant": "m7",
+      "cents": 40000,
+      "happened_at": "2026-07-30",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j281",
+      "tickets": [
+        "t281"
+      ],
+      "receipts": [
+        "r281:0",
+        "r281:1",
+        "r281:2"
+      ],
+      "consent": "allowed",
+      "household": "h81"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r282:0",
+      "merchant": "m6",
+      "cents": 40000,
+      "happened_at": "2026-07-31",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j282",
+      "tickets": [
+        "t282"
+      ],
+      "receipts": [
+        "r282:0"
+      ],
+      "consent": "allowed",
+      "household": "h82"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r283:0",
+      "merchant": "m7",
+      "cents": 20000,
+      "happened_at": "2026-08-01",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r283:1",
+      "merchant": "m8",
+      "cents": 20000,
+      "happened_at": "2026-08-01",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j283",
+      "tickets": [
+        "t283"
+      ],
+      "receipts": [
+        "r283:0",
+        "r283:1"
+      ],
+      "consent": "allowed",
+      "household": "h83"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r284:0",
+      "merchant": "m8",
+      "cents": 8000,
+      "happened_at": "2026-08-02",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r284:1",
+      "merchant": "m9",
+      "cents": 8000,
+      "happened_at": "2026-08-02",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r284:2",
+      "merchant": "m10",
+      "cents": 8000,
+      "happened_at": "2026-08-02",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j284",
+      "tickets": [
+        "t284",
+        "t284b"
+      ],
+      "receipts": [
+        "r284:0",
+        "r284:1",
+        "r284:2"
+      ],
+      "consent": "allowed",
+      "household": "h84"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r285:0",
+      "merchant": "m9",
+      "cents": 20000,
+      "happened_at": "2026-08-03",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r286:0",
+      "merchant": "m10",
+      "cents": 20000,
+      "happened_at": "2026-08-04",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r286:1",
+      "merchant": "m11",
+      "cents": 8000,
+      "happened_at": "2026-08-04",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j286",
+      "tickets": [
+        "t286"
+      ],
+      "receipts": [
+        "r286:0",
+        "r286:1"
+      ],
+      "consent": "allowed",
+      "household": "h86"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r287:0",
+      "merchant": "m11",
+      "cents": 8000,
+      "happened_at": "2026-08-05",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r287:1",
+      "merchant": "m0",
+      "cents": 20000,
+      "happened_at": "2026-08-05",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r287:2",
+      "merchant": "m1",
+      "cents": 40000,
+      "happened_at": "2026-08-05",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j287",
+      "tickets": [
+        "t287"
+      ],
+      "receipts": [
+        "r287:0",
+        "r287:1",
+        "r287:2"
+      ],
+      "consent": "allowed",
+      "household": "h87"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r288:0",
+      "merchant": "m0",
+      "cents": 4000,
+      "happened_at": "2026-08-06",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j288",
+      "tickets": [
+        "t288",
+        "t288b"
+      ],
+      "receipts": [
+        "r288:0"
+      ],
+      "consent": "denied",
+      "household": "h88"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r289:0",
+      "merchant": "m1",
+      "cents": 8000,
+      "happened_at": "2026-08-07",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r289:1",
+      "merchant": "m2",
+      "cents": 4000,
+      "happened_at": "2026-08-07",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j289",
+      "tickets": [
+        "t289"
+      ],
+      "receipts": [
+        "r289:0",
+        "r289:1"
+      ],
+      "consent": "allowed",
+      "household": "h89"
+    }
+  ],
+  [
+    "journeys.revoke",
+    {
+      "id": "j289",
+      "happened_at": "2026-08-09"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r290:0",
+      "merchant": "m2",
+      "cents": 4000,
+      "happened_at": "2026-08-08",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r290:1",
+      "merchant": "m3",
+      "cents": 8000,
+      "happened_at": "2026-08-08",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r290:2",
+      "merchant": "m4",
+      "cents": 40000,
+      "happened_at": "2026-08-08",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r291:0",
+      "merchant": "m3",
+      "cents": 4000,
+      "happened_at": "2026-08-09",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j291",
+      "tickets": [
+        "t291"
+      ],
+      "receipts": [
+        "r291:0"
+      ],
+      "consent": "allowed",
+      "household": "h91"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r292:0",
+      "merchant": "m4",
+      "cents": 40000,
+      "happened_at": "2026-08-10",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r292:1",
+      "merchant": "m5",
+      "cents": 20000,
+      "happened_at": "2026-08-10",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j292",
+      "tickets": [
+        "t292",
+        "t292b"
+      ],
+      "receipts": [
+        "r292:0",
+        "r292:1"
+      ],
+      "consent": "allowed",
+      "household": "h92"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r293:0",
+      "merchant": "m5",
+      "cents": 8000,
+      "happened_at": "2026-08-11",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r293:1",
+      "merchant": "m6",
+      "cents": 40000,
+      "happened_at": "2026-08-11",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr293:1",
+      "receipt": "r293:1",
+      "cents": 20000
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r293:2",
+      "merchant": "m7",
+      "cents": 8000,
+      "happened_at": "2026-08-11",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j293",
+      "tickets": [
+        "t293"
+      ],
+      "receipts": [
+        "r293:0",
+        "r293:1",
+        "r293:2"
+      ],
+      "consent": "allowed",
+      "household": "h93"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r294:0",
+      "merchant": "m6",
+      "cents": 20000,
+      "happened_at": "2026-08-12",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j294",
+      "tickets": [
+        "t294"
+      ],
+      "receipts": [
+        "r294:0"
+      ],
+      "consent": "allowed",
+      "household": "h94"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r295:0",
+      "merchant": "m7",
+      "cents": 8000,
+      "happened_at": "2026-08-13",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r295:1",
+      "merchant": "m8",
+      "cents": 40000,
+      "happened_at": "2026-08-13",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r296:0",
+      "merchant": "m8",
+      "cents": 40000,
+      "happened_at": "2026-08-14",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r296:1",
+      "merchant": "m9",
+      "cents": 4000,
+      "happened_at": "2026-08-14",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r296:2",
+      "merchant": "m10",
+      "cents": 8000,
+      "happened_at": "2026-08-14",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j296",
+      "tickets": [
+        "t296",
+        "t296b"
+      ],
+      "receipts": [
+        "r296:0",
+        "r296:1",
+        "r296:2"
+      ],
+      "consent": "allowed",
+      "household": "h96"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r297:0",
+      "merchant": "m9",
+      "cents": 4000,
+      "happened_at": "2026-08-15",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j297",
+      "tickets": [
+        "t297"
+      ],
+      "receipts": [
+        "r297:0"
+      ],
+      "consent": "denied",
+      "household": "h97"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r298:0",
+      "merchant": "m10",
+      "cents": 40000,
+      "happened_at": "2026-08-16",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r298:1",
+      "merchant": "m11",
+      "cents": 40000,
+      "happened_at": "2026-08-16",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j298",
+      "tickets": [
+        "t298"
+      ],
+      "receipts": [
+        "r298:0",
+        "r298:1"
+      ],
+      "consent": "allowed",
+      "household": "h98"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r299:0",
+      "merchant": "m11",
+      "cents": 40000,
+      "happened_at": "2026-08-17",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r299:1",
+      "merchant": "m0",
+      "cents": 4000,
+      "happened_at": "2026-08-17",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r299:2",
+      "merchant": "m1",
+      "cents": 4000,
+      "happened_at": "2026-08-17",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j299",
+      "tickets": [
+        "t299"
+      ],
+      "receipts": [
+        "r299:0",
+        "r299:1",
+        "r299:2"
+      ],
+      "consent": "allowed",
+      "household": "h99"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r300:0",
+      "merchant": "m0",
+      "cents": 8000,
+      "happened_at": "2026-08-18",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r301:0",
+      "merchant": "m1",
+      "cents": 4000,
+      "happened_at": "2026-08-19",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r301:1",
+      "merchant": "m2",
+      "cents": 8000,
+      "happened_at": "2026-08-19",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j301",
+      "tickets": [
+        "t301"
+      ],
+      "receipts": [
+        "r301:0",
+        "r301:1"
+      ],
+      "consent": "allowed",
+      "household": "h1"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r302:0",
+      "merchant": "m2",
+      "cents": 8000,
+      "happened_at": "2026-08-20",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r302:1",
+      "merchant": "m3",
+      "cents": 4000,
+      "happened_at": "2026-08-20",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr302:1",
+      "receipt": "r302:1",
+      "cents": 2000
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r302:2",
+      "merchant": "m4",
+      "cents": 4000,
+      "happened_at": "2026-08-20",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr302:2",
+      "receipt": "r302:2",
+      "cents": 2000
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j302",
+      "tickets": [
+        "t302"
+      ],
+      "receipts": [
+        "r302:0",
+        "r302:1",
+        "r302:2"
+      ],
+      "consent": "allowed",
+      "household": "h2"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r303:0",
+      "merchant": "m3",
+      "cents": 8000,
+      "happened_at": "2026-08-21",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j303",
+      "tickets": [
+        "t303"
+      ],
+      "receipts": [
+        "r303:0"
+      ],
+      "consent": "allowed",
+      "household": "h3"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r304:0",
+      "merchant": "m4",
+      "cents": 4000,
+      "happened_at": "2026-08-22",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r304:1",
+      "merchant": "m5",
+      "cents": 20000,
+      "happened_at": "2026-08-22",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j304",
+      "tickets": [
+        "t304",
+        "t304b"
+      ],
+      "receipts": [
+        "r304:0",
+        "r304:1"
+      ],
+      "consent": "allowed",
+      "household": "h4"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r305:0",
+      "merchant": "m5",
+      "cents": 20000,
+      "happened_at": "2026-08-23",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r305:1",
+      "merchant": "m6",
+      "cents": 4000,
+      "happened_at": "2026-08-23",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r305:2",
+      "merchant": "m7",
+      "cents": 40000,
+      "happened_at": "2026-08-23",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r306:0",
+      "merchant": "m6",
+      "cents": 8000,
+      "happened_at": "2026-08-24",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j306",
+      "tickets": [
+        "t306"
+      ],
+      "receipts": [
+        "r306:0"
+      ],
+      "consent": "denied",
+      "household": "h6"
+    }
+  ],
+  [
+    "journeys.revoke",
+    {
+      "id": "j306",
+      "happened_at": "2026-08-26"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r307:0",
+      "merchant": "m7",
+      "cents": 40000,
+      "happened_at": "2026-08-25",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r307:1",
+      "merchant": "m8",
+      "cents": 4000,
+      "happened_at": "2026-08-25",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j307",
+      "tickets": [
+        "t307"
+      ],
+      "receipts": [
+        "r307:0",
+        "r307:1"
+      ],
+      "consent": "allowed",
+      "household": "h7"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r308:0",
+      "merchant": "m8",
+      "cents": 8000,
+      "happened_at": "2026-08-26",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r308:1",
+      "merchant": "m9",
+      "cents": 8000,
+      "happened_at": "2026-08-26",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r308:2",
+      "merchant": "m10",
+      "cents": 40000,
+      "happened_at": "2026-08-26",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j308",
+      "tickets": [
+        "t308",
+        "t308b"
+      ],
+      "receipts": [
+        "r308:0",
+        "r308:1",
+        "r308:2"
+      ],
+      "consent": "allowed",
+      "household": "h8"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r309:0",
+      "merchant": "m9",
+      "cents": 4000,
+      "happened_at": "2026-08-27",
+      "party_size": 2,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j309",
+      "tickets": [
+        "t309"
+      ],
+      "receipts": [
+        "r309:0"
+      ],
+      "consent": "allowed",
+      "household": "h9"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r310:0",
+      "merchant": "m10",
+      "cents": 4000,
+      "happened_at": "2026-08-28",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r310:1",
+      "merchant": "m11",
+      "cents": 4000,
+      "happened_at": "2026-08-28",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r311:0",
+      "merchant": "m11",
+      "cents": 40000,
+      "happened_at": "2026-08-29",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r311:1",
+      "merchant": "m0",
+      "cents": 4000,
+      "happened_at": "2026-08-29",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r311:2",
+      "merchant": "m1",
+      "cents": 8000,
+      "happened_at": "2026-08-29",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j311",
+      "tickets": [
+        "t311"
+      ],
+      "receipts": [
+        "r311:0",
+        "r311:1",
+        "r311:2"
+      ],
+      "consent": "allowed",
+      "household": "h11"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r312:0",
+      "merchant": "m0",
+      "cents": 8000,
+      "happened_at": "2026-08-30",
+      "party_size": 1,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j312",
+      "tickets": [
+        "t312",
+        "t312b"
+      ],
+      "receipts": [
+        "r312:0"
+      ],
+      "consent": "allowed",
+      "household": "h12"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r313:0",
+      "merchant": "m1",
+      "cents": 4000,
+      "happened_at": "2026-08-31",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r313:1",
+      "merchant": "m2",
+      "cents": 40000,
+      "happened_at": "2026-08-31",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j313",
+      "tickets": [
+        "t313"
+      ],
+      "receipts": [
+        "r313:0",
+        "r313:1"
+      ],
+      "consent": "allowed",
+      "household": "h13"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r314:0",
+      "merchant": "m2",
+      "cents": 4000,
+      "happened_at": "2026-09-01",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr314:0",
+      "receipt": "r314:0",
+      "cents": 2000
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r314:1",
+      "merchant": "m3",
+      "cents": 20000,
+      "happened_at": "2026-09-01",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr314:1",
+      "receipt": "r314:1",
+      "cents": 10000
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r314:2",
+      "merchant": "m4",
+      "cents": 8000,
+      "happened_at": "2026-09-01",
+      "party_size": 3,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j314",
+      "tickets": [
+        "t314"
+      ],
+      "receipts": [
+        "r314:0",
+        "r314:1",
+        "r314:2"
+      ],
+      "consent": "allowed",
+      "household": "h14"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r315:0",
+      "merchant": "m3",
+      "cents": 40000,
+      "happened_at": "2026-09-02",
+      "party_size": 4,
+      "source": "walkin"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r316:0",
+      "merchant": "m4",
+      "cents": 40000,
+      "happened_at": "2026-09-03",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r316:1",
+      "merchant": "m5",
+      "cents": 8000,
+      "happened_at": "2026-09-03",
+      "party_size": 1,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j316",
+      "tickets": [
+        "t316",
+        "t316b"
+      ],
+      "receipts": [
+        "r316:0",
+        "r316:1"
+      ],
+      "consent": "allowed",
+      "household": "h16"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r317:0",
+      "merchant": "m5",
+      "cents": 40000,
+      "happened_at": "2026-09-04",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r317:1",
+      "merchant": "m6",
+      "cents": 8000,
+      "happened_at": "2026-09-04",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "fr317:1",
+      "receipt": "r317:1",
+      "cents": 4000
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r317:2",
+      "merchant": "m7",
+      "cents": 8000,
+      "happened_at": "2026-09-04",
+      "party_size": 2,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j317",
+      "tickets": [
+        "t317"
+      ],
+      "receipts": [
+        "r317:0",
+        "r317:1",
+        "r317:2"
+      ],
+      "consent": "allowed",
+      "household": "h17"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r318:0",
+      "merchant": "m6",
+      "cents": 8000,
+      "happened_at": "2026-09-05",
+      "party_size": 3,
+      "source": "walkin"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j318",
+      "tickets": [
+        "t318"
+      ],
+      "receipts": [
+        "r318:0"
+      ],
+      "consent": "allowed",
+      "household": "h18"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r319:0",
+      "merchant": "m7",
+      "cents": 20000,
+      "happened_at": "2026-09-06",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "r319:1",
+      "merchant": "m8",
+      "cents": 40000,
+      "happened_at": "2026-09-06",
+      "party_size": 4,
+      "source": "ticket"
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j319",
+      "tickets": [
+        "t319"
+      ],
+      "receipts": [
+        "r319:0",
+        "r319:1"
+      ],
+      "consent": "allowed",
+      "household": "h19"
+    }
+  ]
+]

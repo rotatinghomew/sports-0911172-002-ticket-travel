@@ -1,0 +1,83 @@
+[
+  [
+    "receipts.merchant",
+    {
+      "id": "hotel",
+      "city": "north",
+      "sector": "hotel"
+    }
+  ],
+  [
+    "receipts.merchant",
+    {
+      "id": "diner",
+      "city": "south",
+      "sector": "food"
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "h1",
+      "merchant": "hotel",
+      "cents": 40000,
+      "happened_at": "2026-10-17",
+      "party_size": 2
+    }
+  ],
+  [
+    "receipts.post",
+    {
+      "id": "d1",
+      "merchant": "diner",
+      "cents": 8000,
+      "happened_at": "2026-10-18",
+      "party_size": 2
+    }
+  ],
+  [
+    "receipts.refund",
+    {
+      "id": "r1",
+      "receipt": "h1",
+      "cents": 10000
+    }
+  ],
+  [
+    "journeys.link",
+    {
+      "id": "j1",
+      "tickets": [
+        "t1",
+        "t2"
+      ],
+      "receipts": [
+        "h1",
+        "d1"
+      ],
+      "consent": "allowed",
+      "household": "family1"
+    }
+  ],
+  [
+    "alliance.propose",
+    {
+      "id": "p1",
+      "receipts": [
+        "h1",
+        "d1"
+      ],
+      "shares": {
+        "hotel": 30000,
+        "diner": 8000
+      }
+    }
+  ],
+  [
+    "alliance.confirm",
+    {
+      "id": "p1",
+      "reviewer": "finance"
+    }
+  ]
+]
